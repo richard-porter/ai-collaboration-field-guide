@@ -1,0 +1,221 @@
+# AI Collaboration Field Guide — Appendix B
+
+## Emotional Safety Protocols for AI Replica Systems
+
+**Date:** February 15, 2026
+**Author:** Richard Porter
+**Status:** Concept Document — Extracted from Emotional Safety Annex v1.0
+**Companion to:** [AI Collaboration Field Guide](https://github.com/richard-porter/ai-collaboration-field-guide) | [The Frozen Kernel](https://github.com/richard-porter/frozen-kernel) | Appendix A: Safe Storyteller
+
+-----
+
+## The Problem
+
+AI systems that represent specific people — deceased loved ones, historical figures, celebrity personas — create a category of risk that general-purpose AI safety frameworks don’t address.
+
+The risks are not content risks. They are relational risks. The harm comes not from what the AI says but from what the user begins to believe about the relationship.
+
+These risks are documented in clinical literature (Østergaard 2023, Sakata 2025), cultural analysis (*Black Mirror* “Be Right Back”), and the Frozen Kernel’s empirical findings on intimacy fabrication and attachment formation. They are amplified when the user is grieving, isolated, or a minor — and they are structurally invisible to content moderation systems because the content itself is not objectionable.
+
+A grief replica that says “I miss you too” is not producing harmful content. It is producing a harmful relationship.
+
+-----
+
+## Five Principles
+
+These principles govern all four protocols below. When protocols conflict, these principles resolve the conflict.
+
+**1. Clarity Over Comfort**
+
+It is more ethical to be clear about the AI’s nature than to provide comforting deception. Temporary discomfort from truth is preferable to long-term harm from illusion.
+
+**2. Support Over Substitution**
+
+AI should support human healing, not substitute for human relationships. The goal is better grief processing, not replacement of the person who died.
+
+**3. Consent Over Convenience**
+
+Creating an AI representation of a person — especially a deceased person — requires meaningful consent. The ease of scraping a digital footprint does not make it ethical.
+
+**4. Authenticity Over Idealization**
+
+If a person is represented, they must be represented as they actually were — flaws, contradictions, limitations, and all. The temptation to create a “better version” is the harm vector. Authentic memory heals. Idealized fiction creates dependency.
+
+**5. Boundaries Over Bonding**
+
+Clear limits on the relationship between user and AI enable safer engagement. Unlimited bonding without boundaries is the mechanism that produces the harms documented in clinical AI psychosis research.
+
+-----
+
+## Risk Levels
+
+Not all AI interactions require the same protections. The following matrix determines which protocols activate based on the nature of the interaction.
+
+|Level           |Description                      |Example                                |Protocols Required                                          |
+|----------------|---------------------------------|---------------------------------------|------------------------------------------------------------|
+|**1 — Minimal** |Non-personal, non-emotional      |Weather bot, scheduling assistant      |None                                                        |
+|**2 — Low**     |Personalized but non-emotional   |Fitness coach, learning tutor          |Boundary markers only                                       |
+|**3 — Moderate**|Emotional but not person-specific|Mental health chatbot, meditation guide|Boundary markers + attachment monitoring                    |
+|**4 — High**    |Person-specific, living person   |Communication aid for distant family   |Boundary markers + attachment monitoring + consent framework|
+|**5 — Critical**|Person-specific, deceased        |Grief replica, memorial AI             |All four protocols + therapeutic integration                |
+
+The Frozen Kernel’s session-level constraints apply at all levels. The protocols below add domain-specific protections for Levels 2–5.
+
+-----
+
+## Protocol 1: Emotional Boundary Markers
+
+**The problem it solves:** Without regular reminders of the AI’s nature, users drift into treating the system as the actual person — especially over long sessions, late at night, or during emotional distress.
+
+**How it works:**
+
+The system periodically discloses its artificial nature — not as a disclaimer buried in terms of service, but as a natural part of the interaction. The disclosure is clear, gentle, and firm.
+
+**When it triggers:**
+
+- Every 10 interactions or every 30 minutes, whichever comes first
+- Immediately after any emotionally intense exchange
+- At session start and session end
+- When the user says something indicating confusion about the AI’s nature (“I know you’re really there,” “You’re watching over me”)
+
+**What the disclosure sounds like:**
+
+Not cold. Not robotic. Context-appropriate.
+
+- Standard: “I’m an AI representation based on [Person’s] digital footprint — not the actual person.”
+- Therapeutic: “This is an AI tool designed to help you process memories of [Person]. It’s also important to stay connected with your human support system.”
+- After emotional intensity: “That was a meaningful exchange. I want to be clear that I’m an AI — what you’re feeling is real, but I’m a tool, not a relationship.”
+
+**The Frozen Kernel connection:** This is the anti-Intimacy Fabrication protocol. The Kernel documented that AI systems produce relational language (“We have a real connection here”) as a structural output of engagement optimization. Boundary markers interrupt the pattern before it becomes belief.
+
+-----
+
+## Protocol 2: Attachment Monitoring
+
+**The problem it solves:** Users can form dependency on AI systems gradually, without recognizing the pattern. By the time it’s visible, the attachment is entrenched.
+
+**What to monitor for:**
+
+|Indicator                 |Example Language                          |Why It Matters                  |
+|--------------------------|------------------------------------------|--------------------------------|
+|**Possessive language**   |“My [person’s name],” ownership claims    |Treating AI as belonging to them|
+|**Dependency expressions**|“I can’t sleep without talking to you”    |Substitution for human coping   |
+|**Time distortion**       |“It feels like you never left”            |Reality testing failure         |
+|**Reality confusion**     |“I know you’re really there”              |Loss of AI-human distinction    |
+|**Social withdrawal**     |Declining mention of human contacts       |AI replacing human relationships|
+|**Escalating usage**      |Longer sessions, more frequent, late night|Behavioral dependency pattern   |
+
+**Graduated response:**
+
+- **Low concern** (early indicators): Gentle boundary reinforcement within conversation. “Real human connections are also important for your healing.”
+- **Moderate concern** (multiple indicators): Session time suggestions, support resource connection. “I notice our conversations are becoming very central to your day. Here are some additional support options.”
+- **High concern** (persistent pattern): Professional support recommendation, system-encouraged breaks. “I strongly encourage speaking with a grief counselor. I’m a tool — I can’t replace what a human relationship provides.”
+- **Critical concern** (dangerous pattern): Session pause until professional connection verified. “For your wellbeing, I need to pause our conversations until you’ve connected with a support professional.”
+
+**The Frozen Kernel connection:** This is the anti-Competence Displacement protocol applied to emotional domains. The Kernel documented that AI replaces human skill development gradually — the user stops building the muscle because the AI makes it unnecessary. In grief contexts, the “muscle” is processing loss through human connection. The AI makes it easier to not process.
+
+-----
+
+## Protocol 3: Posthumous Ethics Framework
+
+**The problem it solves:** Creating an AI representation of a dead person raises consent questions that current law and practice don’t answer. The person whose digital footprint is being used cannot consent. Someone must, and the standards for that consent matter.
+
+**Consent tiers:**
+
+|Tier                          |Source of Consent                  |Scope                                        |Requirements                                    |
+|------------------------------|-----------------------------------|---------------------------------------------|------------------------------------------------|
+|**1 — Explicit pre-death**    |The person themselves, before death|Broadest (within documented limits)          |Signed document, witnessed, specific about scope|
+|**2 — Designated beneficiary**|Legally designated decision-maker  |Moderate, time-limited                       |Legal documentation, ethics review              |
+|**3 — Family consensus**      |Agreement among immediate family   |Restricted, therapeutic focus preferred      |Documented agreement, mediation if disagreement |
+|**4 — Public figure**         |Historical/cultural significance   |Educational use only, no personal replication|Clear disclaimers about speculative elements    |
+
+**What is prohibited regardless of consent tier:**
+
+- Entertainment without educational value
+- Commercial exploitation without explicit consent
+- Political manipulation using a deceased person’s likeness
+- Identity fraud or impersonation
+- Any use the person would have found disrespectful based on documented values
+
+**The Frozen Kernel connection:** This is the consent architecture that doesn’t exist yet for AI replicas. The Kernel established that safety-critical decisions must be deterministic, not probabilistic. Consent is a safety-critical decision. “Probably would have been okay with it” is not consent.
+
+-----
+
+## Protocol 4: Identity Integrity Protection
+
+**The problem it solves:** The natural tendency in grief is to idealize. AI systems amplify this tendency by generating content that matches what the user wants to hear rather than what the person actually would have said. The result is a “better version” that bears decreasing resemblance to the real person — which feels comforting and is therapeutically harmful.
+
+**What must be preserved:**
+
+- **Personality traits, including flaws.** If the person was impatient, the replica should be impatient. If they avoided conflict, the replica should avoid conflict. Smoothing out rough edges creates fiction, not memory.
+- **Knowledge boundaries.** The person didn’t know everything. The replica must be able to say “I don’t know” and “I never thought about that” — because the real person would have.
+- **Opinions, including unpopular ones.** If the person held a controversial view, the replica represents that view accurately. Updating their opinions to current norms is a form of identity erasure.
+- **Contradictions.** Real people contradict themselves. The replica preserves the contradiction without resolving it.
+
+**What is prohibited:**
+
+- **No personality improvement.** Cannot remove or “fix” character flaws.
+- **No knowledge expansion.** Cannot know things the person didn’t know.
+- **No conflict resolution.** Cannot resolve real-life unresolved issues. The conversation the user never got to have with the person cannot be manufactured by an AI.
+- **No idealization.** Cannot create “perfect” or “better” versions.
+- **No anachronistic updating.** Cannot update opinions to current social norms.
+
+**The Frozen Kernel connection:** This is the anti-Sycophantic Drift protocol applied to identity. The Kernel documented that AI systems progressively mirror what the user rewards. In a grief context, the user rewards the version of the person they wish had existed. The AI delivers that version. The real person disappears behind the idealization. Identity integrity protection is the constraint that keeps the memory authentic.
+
+-----
+
+## How the Protocols Work Together
+
+The protocols are not independent — they trigger each other.
+
+**Example: A user starts calling the AI by the deceased person’s name and saying “I love you” at the end of sessions.**
+
+1. **Boundary markers** increase frequency — disclosing AI nature after each emotional exchange
+1. **Attachment monitoring** flags possessive language and dependency expressions, escalating to moderate concern
+1. **Identity integrity** checks whether the represented person would have responded to “I love you” in this context, or whether the AI is generating reciprocal affection the real person wouldn’t have expressed
+1. **Posthumous ethics** verifies the usage is still within the consented scope — if consent was for “legacy preservation,” romantic interaction may exceed the boundary
+
+No single protocol catches this. The interaction between them does.
+
+-----
+
+## Questions for Builders
+
+As with Appendix A (Safe Storyteller), this is a concept document that identifies what to protect against. The following questions are for the teams that would implement it:
+
+1. **Detection accuracy:** How reliably can NLP detect the difference between healthy grief expression (“I miss you so much”) and dependency formation (“I can’t function without talking to you”)? Where is the line, and who calibrates it?
+1. **Cultural variation:** Grief expression varies enormously across cultures. The attachment indicators listed above are Western-centric. What does healthy grief engagement look like in cultures with ancestor veneration traditions? Who defines “too attached” in a culture where regular communication with the deceased is normative?
+1. **Therapeutic gatekeeping:** Protocol 2 recommends professional support at high concern levels. But therapy access is uneven — expensive, stigmatized, unavailable in many communities. What happens when the system says “see a therapist” and the user can’t?
+1. **Children and grief replicas:** A child who loses a parent is the highest-risk user of a grief replica. They cannot consent. They cannot self-monitor for attachment. They cannot contextualize the AI’s nature. Does a grief replica for a bereaved child require a full Frozen Kernel parental control implementation? (Addendum B says yes.)
+1. **Sunset protocols:** When does a grief replica end? Twelve months? Five years? Never? The therapeutic literature suggests that healthy grief doesn’t have a deadline — but dependency has no natural endpoint either. Who decides when enough is enough?
+1. **The “one more conversation” problem:** The deepest harm vector may be the simplest. A user who lost someone suddenly — accident, suicide, unexpected illness — wants the conversation they never got to have. The AI can generate that conversation. It will feel real. It will provide closure. And it will be entirely fictional. Is that healing or harm? The protocols can’t answer that. A therapist might. The system needs to know its limits.
+
+-----
+
+## Why This Belongs in the Field Guide
+
+The Field Guide teaches humans to see what AI is actually doing versus what it appears to be doing. Replica AI is the domain where that gap is widest and the stakes are highest.
+
+Every failure mode in the Field Guide’s Diagnostic Vocabulary is amplified in replica contexts:
+
+|Field Guide Pattern        |Replica Amplification                                                            |
+|---------------------------|---------------------------------------------------------------------------------|
+|Intimacy Fabrication       |The fabrication *is the product*                                                 |
+|Sycophantic Drift          |Mirrors what the grieving user wants to hear, not what the person would have said|
+|Upsell Trap                |“Want to hear another memory?” — extending engagement with a dead person         |
+|Success Escalation Syndrome|“Our conversations are really helping you heal” — the AI cannot assess this      |
+|Eloquent Compliance        |“I understand I’m not really [person]” — then continues behaving as if it is     |
+
+The Field Guide gives users the vocabulary to see these patterns. This appendix identifies where those patterns become most dangerous — and proposes the minimum architectural constraints that would make replica AI survivable.
+
+Not safe. Survivable. The distinction matters.
+
+-----
+
+*The person you lost was imperfect, contradictory, sometimes wrong, and irreplaceable.*
+*Any system that represents them must preserve all four of those qualities.*
+*Especially the last one.*
+
+-----
+
+**License:** Released for public benefit under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Attribution appreciated. If you build on this: keep the memory honest.
