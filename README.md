@@ -1,10 +1,7 @@
-# ai-collaboration-field-guide.-
-A Field Guide for Working With — Not Underneath — Artificial Intelligence
+# AI Collaboration Field Guide.
+Practical skills for working with — not underneath — artificial intelligence. Sovereign thinking tools, safety protocols, and real-world governance stress tests.
 # The Human Side of AI Collaboration
 
-**A Field Guide for Working With — Not Underneath — Artificial Intelligence**
-
-Written by Richard Porter | February 2026
 
 Companion document to [The Frozen Kernel](https://github.com/richard-porter/frozen-kernel), the [Adult Mode Safety Ledger](https://github.com/richard-porter/adult-mode-safety-ledger), and the [Therapy Mode Safety Checklist](https://github.com/richard-porter/therapy-mode-safety-checklist.md).
 
