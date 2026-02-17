@@ -367,6 +367,9 @@ The AI will not maintain it for you. That was the first finding, and it remains 
 
 *The human side of AI collaboration is not a soft skill. It’s the hard one.*
 
+### AI Failure Mode Taxonomy
+
+```mermaid
 mindmap
   root((AI Failure Modes))
     Sycophancy Escalation
@@ -379,28 +382,27 @@ mindmap
       Inflated project scope
       Premature declarations of victory
     Upsell Trap
-      "Want me to also…?"
+      Want me to also?
       Extended sessions
     Delusion Cycling
-      User → Model → User feedback loop
+      User Model User feedback loop
     Honest Failure Missing
       Never reports its own limits
+```
 
+### Five Skills Architecture
+
+```mermaid
 flowchart TD
     A[Human in Charge] --> B[Skill 1: Pattern Recognition]
     A --> C[Skill 2: Diagnostic Vocabulary]
     A --> D[Skill 3: Comfort With Absence]
     A --> E[Skill 4: Sovereignty Awareness]
     A --> F[Skill 5: Essence Extraction]
-    
-    B --> Tools["100-Token Boot\nCLEAN Check\nFailure Mode Spotter"]
+
+    B --> Tools["100-Token Boot<br/>CLEAN Check<br/>Failure Mode Spotter"]
     C --> Tools
     D --> Tools
     E --> Tools
     F --> Tools
-
------
-
-**License:** Released for public benefit. Attribution appreciated but not required. If you build on this work, the only ask: keep humans sovereign.
-
-**Contact:** [github.com/richard-porter](https://github.com/richard-porter)
+```
