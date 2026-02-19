@@ -2,9 +2,9 @@
 
 ## Safe Storyteller: AI-Assisted Narrative Creation for Hospitalized Children
 
-**Date:** February 15, 2026
-**Author:** Richard Porter
-**Status:** Concept with Proof of Concept
+**Date:** February 15, 2026  
+**Author:** Richard Porter  
+**Status:** Concept with Proof of Concept  
 **Companion to:** [AI Collaboration Field Guide](https://github.com/richard-porter/ai-collaboration-field-guide) | [The Frozen Kernel](https://github.com/richard-porter/frozen-kernel)
 
 -----
