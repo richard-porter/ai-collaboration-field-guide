@@ -1,1 +1,0 @@
-Sovereign Thinking Tools
