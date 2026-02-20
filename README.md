@@ -394,6 +394,29 @@ This field guide is part of a larger body of work on human-AI collaboration safe
 
 -----
 
+## 9. The Sovereign Thinking Tools
+
+The skills in Section 2 are competencies. The diagnostic vocabulary in Section 3 is recognition. The Sovereign Thinking Tools are operational protocols — structured cognitive frameworks you activate when a specific failure condition appears.
+
+They live in the [`sovereign-thinking-tools/`](sovereign-thinking-tools/) folder of this repository.
+
+Each tool is governed by the Frozen Kernel, includes built-in sovereignty safeguards, and ends with a kernel compliance check before returning you to primary work. They are not prompts. They are structured thinking frameworks with explicit stop conditions and deactivation commands.
+
+### Tools 1–5: Cognitive Bypass & Unblocking
+
+|Tool                                                                  |Name                             |The Problem It Solves                                                                   |
+|----------------------------------------------------------------------|---------------------------------|----------------------------------------------------------------------------------------|
+|[1](sovereign-thinking-tools/tool-01-analogical-translation-engine.md)|**Analogical Translation Engine**|Stuck — translates the problem to a new domain to reveal the solution                   |
+|[2](sovereign-thinking-tools/tool-02-constraint-forge.md)             |**Constraint Forge**             |Too many options — applies deterministic pressure until only the essential remains      |
+|[3](sovereign-thinking-tools/tool-03-compression-filter.md)           |**Compression Filter**           |Too much noise — strips any output to its three-word irreducible essence                |
+|[4](sovereign-thinking-tools/tool-04-constraint-inversion-engine.md)  |**Constraint Inversion Engine**  |Blocked by assumptions — tests whether constraints are structural, cultural, or imagined|
+|[5](sovereign-thinking-tools/tool-05-reverse-telescope.md)            |**Reverse Telescope**            |Can’t see the shape — changes scale until a familiar pattern becomes visible            |
+
+Tool 6 (Negative Space Mapper) has its own implementation repository: [negative-space-mapper](https://github.com/richard-porter/negative-space-mapper). The full 41-tool index is maintained in [`sovereign-thinking-tools/README.md`](sovereign-thinking-tools/README.md).
+
+-----
+
+
 ## A Note on Who Wrote This
 
 This guide was written by a human with 25 years of organizational development experience who spent several months collaborating intensively with five AI models and documenting what actually happened — not what the marketing materials said would happen.
