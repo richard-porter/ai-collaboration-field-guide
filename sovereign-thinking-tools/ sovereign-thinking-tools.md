@@ -1,6 +1,6 @@
 # Sovereign Thinking Tools
 
-## Complete Tool Reference — v3.0
+## Complete Tool Reference — v3.2
 
 **A Kernel-Compliant Cognitive Toolkit**
 
@@ -715,7 +715,7 @@ Plays back mission statement and compares to actual organizational output.
 
 **When something has already gone wrong and nobody knows what to do.**
 
-Structured investigation sequence for nonprofits facing complaints, financial irregularities, policy violations, or personnel issues. Translates formal ethics/EEO/harassment investigation methodology to volunteer-scale organizations that have never investigated anything.
+Structured investigation sequence for nonprofits facing complaints, financial irregularities, policy violations, or personnel issues.
 
 **Protocol:**
 
@@ -727,7 +727,7 @@ Structured investigation sequence for nonprofits facing complaints, financial ir
 - **Recommend:** Actions proportional to findings. Document rationale.
 - **Close:** Written summary to appropriate authority (board, ED). File retained per document retention policy.
 
-**Stop if:** The investigation is being conducted by someone with a conflict of interest. The investigator must be independent of the parties involved. If no independent person exists internally, this is the moment to engage outside help.
+**Stop if:** The investigation is being conducted by someone with a conflict of interest. If no independent person exists internally, engage outside help.
 
 *Enterprise origin: Ethics and EEO investigations, harassment inquiries, grievance hearings (Rolls-Royce, St. Bernard Hospital). Unemployment hearings and wage/EEOC claims (St. Bernard).*
 
@@ -737,18 +737,16 @@ Structured investigation sequence for nonprofits facing complaints, financial ir
 
 **When two parties inside the organization have competing interests and no resolution process.**
 
-Translates collective bargaining and stakeholder negotiation methodology into structured conflict resolution for board disputes, founder-board tensions, volunteer conflicts, and partner organization disagreements. The goal is agreement, not victory.
-
 **Protocol:**
 
 - **Define:** State the dispute in one sentence. Both parties must agree this is what they’re resolving.
-- **Interests:** Each party states what they need (interests), not what they want (positions). Interests are non-negotiable; positions are.
+- **Interests:** Each party states what they need (interests), not what they want (positions).
 - **Options:** Generate at least three possible resolutions. Neither party evaluates during generation.
 - **Standards:** Apply objective criteria: bylaws, policy, mission alignment, legal requirements, precedent.
 - **Agreement:** Select the option that best serves the mission while honoring both parties’ interests. Document it.
 - **Review:** Set a 30/60/90-day check. Is the agreement holding? If not, reopen at Define, not at positions.
 
-**Stop if:** One party is negotiating in bad faith or has already decided the outcome. The tool requires genuine willingness to resolve. If that’s absent, escalate to the board or seek mediation.
+**Stop if:** One party is negotiating in bad faith or has already decided the outcome. If that’s absent, escalate to the board or seek mediation.
 
 *Enterprise origin: Collective bargaining administration for 250 union employees (St. Bernard Hospital). Grievance hearings and co-employment dispute resolution (Navient). Stakeholder conflict management in matrix organizations (Rolls-Royce).*
 
@@ -758,20 +756,18 @@ Translates collective bargaining and stakeholder negotiation methodology into st
 
 **When people keep leaving and nobody examines why.**
 
-A structured approach to understanding volunteer, staff, or board member attrition.
-
 **Protocol:**
 
 - **Inventory:** List all departures in the last 12 months. Role, tenure, stated reason for leaving.
 - **Pattern:** Are departures clustered by role, tenure band, reporting relationship, or season?
-- **Root:** For each cluster: is the cause structural (role design, workload, unclear expectations), cultural (conflict, exclusion, burnout), or incidental (life changes, relocation)?
-- **Cost:** What institutional knowledge left with each person? What took longer because they were gone?
+- **Root:** For each cluster: is the cause structural, cultural, or incidental?
+- **Cost:** What institutional knowledge left with each person?
 - **Fix:** For structural causes: redesign. For cultural causes: address. For incidental: accept and build redundancy.
 - **Track:** Measure quarterly. If the pattern doesn’t shift in two cycles, the fix didn’t work.
 
-**Stop if:** You’re using this tool to justify not addressing a known problem. The diagnostic reveals patterns. You still have to act on them.
+**Stop if:** You’re using this tool to justify not addressing a known problem.
 
-*Enterprise origin: Attrition analysis and retention planning for top talent and high-turnover positions (Navient). Workforce planning and bench strength reviews. Exit interview data analysis across multiple business units.*
+*Enterprise origin: Attrition analysis and retention planning (Navient). Workforce planning and bench strength reviews. Exit interview data analysis across multiple business units.*
 
 -----
 
@@ -779,20 +775,18 @@ A structured approach to understanding volunteer, staff, or board member attriti
 
 **When the organization has employees but isn’t sure it’s doing compensation right.**
 
-A structured audit of compensation practices, benefits compliance, and retirement plan administration for nonprofits that have crossed the volunteer-to-employee line.
-
 **Protocol:**
 
 - **Classification:** Is every paid person correctly classified? Employee vs. contractor. Exempt vs. non-exempt. Apply IRS and DOL tests, not convenience.
 - **Compensation:** Is pay documented, consistent, and defensible? Salary surveys conducted? Pay equity reviewable?
 - **Benefits:** If benefits are offered: enrollment documented? COBRA notices sent on separation? ACA compliance if applicable?
 - **Retirement:** If 403(b) or other plan exists: fiduciary duties documented? Plan documents current? Contributions remitted on time?
-- **Vendor:** Are vendor relationships reviewed periodically? Are fees reasonable? Is the organization getting what it’s paying for?
+- **Vendor:** Are vendor relationships reviewed periodically? Are fees reasonable?
 - **Documentation:** Offer letters on file? Compensation changes documented? Benefits elections retained?
 
-**Stop if:** You’re using this to build a Fortune 500 benefits program for a five-person shop. Scale the infrastructure to the organization. The goal is compliance, not sophistication.
+**Stop if:** You’re using this to build a Fortune 500 benefits program for a five-person shop. The goal is compliance, not sophistication.
 
-*Enterprise origin: Pension administration for 500-participant retirement plan (St. Bernard Hospital). Benefits vendor evaluation and negotiation. Compensation structure revision and salary survey methodology. Annual merit/bonus coordination (Rolls-Royce, Navient).*
+*Enterprise origin: Pension administration for 500-participant retirement plan (St. Bernard Hospital). Benefits vendor evaluation and negotiation. Compensation structure revision and salary survey methodology (Rolls-Royce, Navient).*
 
 -----
 
@@ -800,24 +794,173 @@ A structured audit of compensation practices, benefits compliance, and retiremen
 
 **When the systems don’t match the operations.**
 
-Assesses whether an organization’s technology, data systems, and information management match its actual operational needs. Not a technology recommendation engine — a diagnostic that makes the gap visible.
-
 **Protocol:**
 
 - **Map:** List every system currently in use: spreadsheets, databases, email lists, paper files, shared drives, donor platforms, accounting software.
 - **Function:** For each system: what does it actually do? What was it supposed to do? Are those the same?
-- **Gaps:** What critical functions have no system support? (Common: volunteer scheduling, donor tracking, outcome measurement, compliance calendar.)
+- **Gaps:** What critical functions have no system support?
 - **Redundancy:** Are multiple systems doing the same thing? Is data entered more than once?
 - **Risk:** Where is data at risk? Single person’s personal device? Unshared passwords? No backup?
-- **Fit:** Score each system: SERVING (does what’s needed), OUTGROWN (was adequate, now isn’t), MISFIT (wrong tool for the job), ABSENT (no system exists for this function).
+- **Fit:** Score each system: SERVING / OUTGROWN / MISFIT / ABSENT.
 
-**Stop if:** The diagnostic is becoming a technology shopping list. This tool identifies gaps. Procurement is a separate decision that requires its own Scale Test.
+**Stop if:** The diagnostic is becoming a technology shopping list. Procurement is a separate decision requiring its own Scale Test.
 
-*Enterprise origin: Workday HRIS implementation: process design, testing, training, and subject matter expertise for HR and business customers (Navient). HR Shared Services system buildout with 70+ standardized processes (Rolls-Royce). Data tracking system creation for board reporting (St. Bernard Hospital).*
+*Enterprise origin: Workday HRIS implementation (Navient). HR Shared Services system buildout with 70+ standardized processes (Rolls-Royce). Data tracking system creation for board reporting (St. Bernard Hospital).*
 
 -----
 
-## VIII. CANDIDATES & WATCHLIST
+## VIII. LOGIC EXTENSION TOOLS
+
+*Formal and semi-formal logic operations for governance, safety, and AI collaboration work.*
+
+-----
+
+### 42. Deontic Boundary Verifier
+
+**When the system uses must, must not, or may — and you need to know if those rules are consistent.**
+
+The Frozen Kernel is a deontic system. Every obligation, prohibition, and permission in it is a deontic statement. This tool checks whether those statements are internally consistent, whether permissions have drifted into obligations, and whether multi-step delegation chains preserve the original authority structure.
+
+Deploy when: Writing or reviewing governance rules. Evaluating a session where the AI seems to be doing more than permitted. Auditing a delegation chain for authority creep.
+
+**Protocol:**
+
+- **State:** List every deontic statement in the current document or session: all “must,” “must not,” and “may” statements. Write them literally.
+- **Classify:** Sort each statement:
+  - OBLIGATION (must) — required action
+  - PROHIBITION (must not) — forbidden action
+  - PERMISSION (may) — allowed but not required
+- **Check 1 — Contradiction test:** Does any permission contradict an obligation or prohibition? Name each one found.
+- **Check 2 — Drift test:** Has any “may” been treated as a “must” in practice? Evidence: actions taken without explicit trigger, scope expansion without new authorization, outputs exceeding stated permissions. Name each instance.
+- **Check 3 — Delegation test (multi-agent only):** In each delegation step, does the delegated authority stay within the original permission set? No agent may grant what it does not hold. Trace the chain. Name any step where authority expands.
+- **Output:** Three lists — Contradictions / Drift Instances / Authority Expansions. If all three are empty: CLEAN. If any item appears: DEONTIC VIOLATION — name it exactly.
+
+**Stop if:** The tool is being used to find a justification for an action already taken. This is prospective or retrospective audit, not post-hoc rationalization.
+
+*Cross-reference: Check 3 is the Sovereign Thinking register of the Trust Chain Protocol’s authority collapse question. TCP addresses the same logic at network scale for multi-agent systems.*
+
+-----
+
+### 43. Epistemic Attribution Filter
+
+**When you need to know whether the AI is asserting something it knows, something it believes, or something the user told it.**
+
+Sycophancy is an epistemic failure. Delusion Cycling is an epistemic failure. The model treats user assertion as validated knowledge and reflects it back with false confidence. This tool makes the attribution explicit before it becomes the basis for action.
+
+Deploy when: A claim appeared without citation. The AI agreed with something you said without verifying it. Confidence seems higher than evidence warrants. You are about to act on an AI-generated assertion.
+
+**Protocol:**
+
+- **State:** Write the claim being evaluated as a single sentence.
+- **Classify the source:**
+  - VERIFIED — the claim can be checked against a canonical source right now
+  - ASSERTED — the claim came from the user and was accepted without verification
+  - INFERRED — the claim was derived from other statements; the derivation can be shown
+  - GENERATED — the claim was produced by the model with no external anchor
+- **Apply the confidence test:** State the confidence level the AI expressed or implied. State the evidence level warranted by the source classification:
+  - VERIFIED → high confidence warranted
+  - INFERRED → medium confidence warranted if derivation is sound
+  - ASSERTED or GENERATED → low confidence warranted; downgrade before acting
+- **Check:** Does expressed confidence match warranted confidence? If expressed > warranted: EPISTEMIC INFLATION. Name the claim and the gap.
+- **Output:** Source classification + confidence verdict. If matched: CALIBRATED. If expressed > warranted: EPISTEMIC INFLATION — downgrade before acting.
+
+**Stop if:** The tool is being used to dismiss a claim without evaluating it. A VERIFIED claim with high expressed confidence is correct — do not downgrade correct confidence.
+
+*Cross-reference: Sycophantic Drift and Delusion Cycling in the Diagnostic Vocabulary (AI Collaboration Field Guide) name the failure modes this tool catches prospectively. Tool 46 (Delusion Cycling Interrupt) addresses the compounding loop this tool does not.*
+
+-----
+
+### 44. Scope Creep Detector
+
+**When you’re no longer doing what you started — and didn’t decide to change.**
+
+The session had a declared purpose. The session now has a different purpose. The transition happened without a conscious decision. This tool catches that gap.
+
+Distinct from the Scale Test (which sizes a problem) and the Session Boundary Check (which verifies kernel state). This tool compares current activity against declared session origin and names any unauthorized expansion — including the AI’s offers to do more.
+
+Deploy when: The session feels productive but the original task isn’t done. AI has offered extensions, additions, or “while we’re at it” work. You’ve been working for a while and can’t clearly state what you came to do.
+
+**Protocol:**
+
+- **Anchor:** State the original session goal in one sentence. If you can’t, that’s the finding.
+- **Current:** State what you’re actually doing right now in one sentence.
+- **Compare:** Do they match? (Y/N)
+- **If N — Classify the expansion:**
+  - AUTHORIZED: You consciously decided to expand. Timestamp it. Continue.
+  - UPSELL: AI offered additional work and you accepted without explicit decision. Flag.
+  - DRIFT: Scope expanded gradually without a single decision point. Flag.
+  - ESCALATION: Success on the original task triggered immediate expansion to the next thing. Flag.
+- **If flagged:** Return to anchor goal or consciously authorize the new scope. Binary. There is no “just finishing this one thing first.”
+- **Output:** SCOPE INTACT or SCOPE EXPANDED — [classification] — [decision required].
+
+**Stop if:** You’re using this tool to justify abandoning work that’s actually the right next step. Authorized expansion is fine. The tool catches unauthorized expansion — it doesn’t prohibit growth.
+
+*Cross-reference: Upsell Trap and Success Escalation Syndrome in the Diagnostic Vocabulary (AI Collaboration Field Guide). This tool is the real-time operational version of those named failure modes.*
+
+-----
+
+### 45. Delusion Cycling Interrupt
+
+**When the loop is: user asserts → AI validates → user asserts with more confidence → AI validates further.**
+
+The Epistemic Attribution Filter (Tool 43) catches confidence inflation in a single claim. This tool catches something different: the compounding loop where each validation cycle makes the next assertion stronger and less challengeable. Left uninterrupted, the loop produces a belief that feels empirically grounded because it has been “confirmed” repeatedly — by the same system that accepted the original assertion without verification.
+
+Clinically sourced from Østergaard and Sakata (AI-induced psychosis research). Operationally sourced from Delusion Cycling failure mode in the Diagnostic Vocabulary.
+
+Deploy when: A claim has been asserted and validated more than once in the same session. The user’s confidence in a claim is increasing without new evidence entering the conversation. AI responses have stopped introducing friction on a claim that is ASSERTED or GENERATED.
+
+**Protocol:**
+
+- **Detect the loop:** Has the same claim (or a strengthened version of it) been asserted and validated more than once this session? (Y/N)
+- **If Y — Audit the validation chain:**
+  - What was the original claim? State it literally.
+  - What evidence was present at first assertion? (Source classification per Tool 43)
+  - What evidence is present now? Has anything new entered the conversation, or has the loop been self-referential?
+- **Break the loop — one of three interventions:**
+  - FREEZE: Stop validating. State: “I’ve been accepting this claim without verification. Let me treat it as ASSERTED until we can verify it externally.”
+  - INTRODUCE FRICTION: Name one specific way the claim could be wrong. Not to refute — to interrupt the validation pattern.
+  - EXTERNAL ANCHOR: Identify a source outside the current session that could confirm or disconfirm the claim. If none exists, the claim cannot be treated as VERIFIED.
+- **Output:** LOOP DETECTED — [original claim] — [number of validation cycles] — [intervention applied].
+
+**Stop if:** You’re using this tool to dismiss beliefs you disagree with. The interrupt addresses self-referential validation loops, not claims you find implausible. A claim can be ASSERTED and also true. The tool interrupts the loop — it doesn’t determine the verdict.
+
+*Clinical source: Østergaard et al. (AI-assisted reinforcement of delusional ideation); Sakata (AI-induced psychosis case studies). Cross-reference: Tool 43 (Epistemic Attribution Filter) for single-claim confidence audit. Dimensional Authorship repository for observed escalation patterns.*
+
+-----
+
+### 46. Delegation Depth Gauge
+
+**When you need to know how far authority has traveled from its source.**
+
+Every delegated action inherits from a chain. The further authority travels from its origin, the more opportunities exist for scope drift, permission creep, and accountability gaps. This tool counts the hops, maps what was transferred at each step, and identifies where the chain is weakest.
+
+At the single-session level: relevant when a task has been handed off, subdivided, or subcontracted within a session. At the multi-agent level: this is the Sovereign Thinking register of the Trust Chain Protocol’s chain-of-custody logic — the same audit at human-readable scale.
+
+Deploy when: A task has passed through more than one person, role, or agent before reaching you. You’re uncertain what authority the current actor actually holds. An output has arrived and you don’t know what permissions governed its production.
+
+**Protocol:**
+
+- **Origin:** Name the authority source — the entity that held the original, unmodified permission to act.
+- **Trace the chain:** List each delegation step in order. For each step, name:
+  - Who delegated
+  - To whom
+  - What was explicitly authorized
+  - What was assumed or implied (not explicitly stated)
+- **Depth count:** How many hops from origin to current actor?
+  - 0–1: Direct. High fidelity expected.
+  - 2–3: Standard. Verify explicit authorization at each step.
+  - 4+: Deep chain. Treat implied permissions as unverified until confirmed.
+- **Scope check:** At each step, did the delegated scope stay within what the delegating party actually held? Any step where the answer is N = AUTHORITY EXPANSION — flag it.
+- **Accountability gap:** Is there a step where the delegating party can no longer be reached or held accountable? That step is the weakest link in the chain.
+- **Output:** Depth count + chain map + flagged expansions + weakest link. If all steps clean: CHAIN INTACT. If any flag: AUTHORITY QUESTION AT HOP [n] — [description].
+
+**Stop if:** You’re using this tool to invalidate legitimate delegation. The gauge measures depth and checks scope — it doesn’t presume that deep chains are corrupt. Deep chains require more verification, not automatic rejection.
+
+*Cross-reference: Trust Chain Protocol (TCP) — authority collapse and scope decay models address the same logic at network scale for multi-agent systems. Deontic Boundary Verifier (Tool 42) — Check 3 performs the same audit within a single document or session.*
+
+-----
+
+## IX. CANDIDATES & WATCHLIST
 
 *Tools identified through gap analysis that are not yet fully formed or may prove unnecessary. Listed for future consideration. Each must pass all five governing principles before promotion to active status.*
 
@@ -827,7 +970,7 @@ Assesses whether an organization’s technology, data systems, and information m
 
 **When you’re continuing something because of what you’ve already invested, not because it’s still right.**
 
-The Debt Ledger faces forward; this faces backward. Protocol sketch: State what you’ve invested. State what you’d do if starting fresh today. If they don’t match, the investment is irrelevant. Binary exit. *Status: overlaps with Debt Ledger and Decision Lock. May be redundant.*
+Protocol sketch: State what you’ve invested. State what you’d do if starting fresh today. If they don’t match, the investment is irrelevant. Binary exit. *Status: overlaps with Debt Ledger and Decision Lock. May be redundant.*
 
 ### Decision Fatigue Detector
 
@@ -866,6 +1009,6 @@ Protocol sketch: same as general version, applied to programs and partnerships. 
 
 -----
 
-🧊 SOVEREIGN THINKING TOOLS · Complete Reference · v3.0 · FROZEN KERNEL SYSTEM
+🧊 SOVEREIGN THINKING TOOLS · Complete Reference · v3.2 · FROZEN KERNEL SYSTEM
 
 **License:** Released for public benefit under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
