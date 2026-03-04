@@ -75,6 +75,8 @@ Kelly’s contribution to Meta-Operation 0: the discipline of refusing to bet wh
 
 **The zero-edge finding:** If Gate 2 consistently returns “no edge,” the correct response is not to find a better method — it is to find a different variable, a different time horizon, or a different question where an edge exists. Forecasting where you have no edge is not neutral. It consumes resources, creates false confidence, and crowds out forecasts where genuine edge exists.
 
+Burgess’s Promise Theory arrives at the same constraint from the agent side: an agent cannot make promises about another agent’s behavior. A forecaster with no edge is attempting to promise an outcome they don’t control.
+
 -----
 
 #### Gate 3: Operation Selection
