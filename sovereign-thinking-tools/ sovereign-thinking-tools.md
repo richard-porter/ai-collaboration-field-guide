@@ -1,6 +1,6 @@
 # Sovereign Thinking Tools
 
-## Complete Tool Reference — v3.2
+## Complete Tool Reference — v3.3
 
 **A Kernel-Compliant Cognitive Toolkit**
 
@@ -1063,6 +1063,6 @@ Protocol sketch: same as general version, applied to programs and partnerships. 
 
 -----
 
-🧊 SOVEREIGN THINKING TOOLS · Complete Reference · v3.2 · FROZEN KERNEL SYSTEM
+🧊 SOVEREIGN THINKING TOOLS · Complete Reference · v3.3 · FROZEN KERNEL SYSTEM
 
 **License:** Released for public benefit under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
