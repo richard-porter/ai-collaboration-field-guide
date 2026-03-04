@@ -3,7 +3,7 @@
 ## A Cognitive Operations Framework for Predictive Reasoning
 
 **Part of the AI Collaboration Field Guide**
-*Richard Porter · v1.1 · March 2026*
+*Richard Porter · v1.2 · March 2026*
 
 -----
 
@@ -19,26 +19,113 @@ This taxonomy organizes forecasting by **cognitive operation** rather than by di
 
 -----
 
-## The Eight (Plus One) Epistemic Operations
+## The Two-Tier Structure
 
-|# |Operation                          |Core Question                               |Fields That Own It                         |
-|--|-----------------------------------|--------------------------------------------|-------------------------------------------|
-|1 |Pattern Extrapolation              |Will the past continue?                     |Economics, finance, demography             |
-|2 |Causal Modeling                    |What drives the outcome?                    |Epidemiology, economics, engineering       |
-|3 |Ensemble / Uncertainty Mapping     |What is the distribution of futures?        |Meteorology, climate science               |
-|4a|Market-Gap Detection               |Where is the consensus wrong?               |Gambling, sports betting                   |
-|4b|Aggregative Probability Elicitation|How do we construct the consensus correctly?|Prediction markets, superforecasting       |
-|5 |Structural / Mechanistic           |What are the physics of this system?        |Epidemiology, engineering, toxicology      |
-|6 |Analogical / Historical            |What does this resemble?                    |Military strategy, intelligence, medicine  |
-|7 |Absence / Negative Space           |What is not being forecast?                 |Counterintelligence, ecology, journalism   |
-|8 |Constraint-Based Reduction         |What can we rule out before modeling?       |Operations research, constraint programming|
-|9 |Threshold Boundary Detection       |Where is the cliff edge?                    |Toxicology, engineering, finance           |
+This taxonomy has two tiers. The first is a meta-operation that runs before any forecast. The second is the set of epistemic operations — the actual forecasting methods. The meta-operation determines which operations are appropriate. The operations do the work.
+
+Most forecasting failures happen in the meta-operation tier: the wrong method is applied to a variable for which it is structurally unsuited, or a forecast is attempted on a variable where no edge exists. The operations themselves are rarely the failure point. The selection logic is.
+
+|Tier     |# |Operation                          |Core Question                               |Origin                                     |
+|---------|--|-----------------------------------|--------------------------------------------|-------------------------------------------|
+|Meta     |0 |Pre-Forecast Discipline            |Should we forecast this, and how?           |Kelly Criterion, Constraint Forge          |
+|Operation|1 |Pattern Extrapolation              |Will the past continue?                     |Economics, finance, demography             |
+|Operation|2 |Causal Modeling                    |What drives the outcome?                    |Epidemiology, economics, engineering       |
+|Operation|3 |Ensemble / Uncertainty Mapping     |What is the distribution of futures?        |Meteorology, climate science               |
+|Operation|4a|Market-Gap Detection               |Where is the consensus wrong?               |Gambling, sports betting                   |
+|Operation|4b|Aggregative Probability Elicitation|How do we construct the consensus correctly?|Prediction markets, superforecasting       |
+|Operation|5 |Structural / Mechanistic           |What are the physics of this system?        |Epidemiology, engineering, toxicology      |
+|Operation|6 |Analogical / Historical            |What does this resemble?                    |Military strategy, intelligence, medicine  |
+|Operation|7 |Absence / Negative Space           |What is not being forecast?                 |Counterintelligence, ecology, journalism   |
+|Operation|8 |Constraint-Based Reduction         |What can we rule out before modeling?       |Operations research, constraint programming|
+|Operation|9 |Threshold Boundary Detection       |Where is the cliff edge?                    |Toxicology, engineering, finance           |
 
 Operation 9 is a candidate for full column status. See the Toxicology section below for the case for its promotion.
 
 -----
 
 ## The Operations in Detail
+
+### Meta-Operation 0: Pre-Forecast Discipline
+
+**Core claim:** Before selecting a forecasting method, determine whether a forecast is warranted at all, which variables are actually forecastable, whether you have an edge over the existing consensus, and which epistemic operation is appropriate for each variable. Most forecasting failures are selection failures, not method failures.
+
+Meta-Operation 0 is not a forecasting method. It is the gate that determines which method — if any — to deploy. It runs before Operations 1–9 and constrains which of them are appropriate for a given problem.
+
+-----
+
+#### Gate 1: The Forecastability Test
+
+Not every variable is forecastable. Some variables are intrinsically stochastic — no amount of information or method sophistication produces reliable predictions. Others are forecastable in principle but not with available data. Others are forecastable but only at time horizons different from the one being asked about.
+
+Ask of each variable: **Is this variable forecastable, by anyone, at this time horizon, with available data?**
+
+If no: do not forecast. Report honest uncertainty. A system that cannot distinguish forecastable from unforecastable variables will produce confident fabrications on the latter — which is Framework Fabrication Syndrome at the forecasting layer.
+
+The ecology contribution here is critical: the Ecological Forecasting Initiative’s uncertainty partitioning asks explicitly whether forecast error comes from model structure, parameter values, or intrinsic system unpredictability. The third source — intrinsic unpredictability — means the variable fails Gate 1. No method improvement will fix it.
+
+-----
+
+#### Gate 2: The Kelly Edge Test
+
+Borrowed directly from Operation 4a. Before forecasting a variable where a consensus exists, ask: **Do I have information the consensus does not have?**
+
+If no edge exists — if the consensus has already priced in everything available to you — there is no forecast value to add. Proceeding anyway produces noise dressed as signal.
+
+Kelly’s contribution to Meta-Operation 0: the discipline of refusing to bet when you have no edge is more cognitively demanding than forecasting. It requires accurately assessing your own information advantage, which demands the same skills as forecasting itself. Most practitioners skip this gate entirely, which is why most forecasts add no value over the base rate.
+
+**The zero-edge finding:** If Gate 2 consistently returns “no edge,” the correct response is not to find a better method — it is to find a different variable, a different time horizon, or a different question where an edge exists. Forecasting where you have no edge is not neutral. It consumes resources, creates false confidence, and crowds out forecasts where genuine edge exists.
+
+-----
+
+#### Gate 3: Operation Selection
+
+Once a variable passes Gates 1 and 2, the question is which epistemic operation is appropriate. This is not a free choice — different variables have structural properties that make certain operations valid and others invalid.
+
+|Variable property                                       |Appropriate operation(s)           |Inappropriate operations   |
+|--------------------------------------------------------|-----------------------------------|---------------------------|
+|Stable historical pattern, no structural change expected|1 (Pattern Extrapolation)          |5, 9                       |
+|Known causal mechanism, measurable drivers              |2 (Causal Modeling), 5 (Structural)|1, 6                       |
+|High intrinsic uncertainty, many plausible futures      |3 (Ensemble)                       |1                          |
+|Consensus exists, your information differs              |4a (Market-Gap)                    |3                          |
+|No consensus exists, distributed information available  |4b (Aggregative)                   |4a                         |
+|Novel situation, historical precedent available         |6 (Analogical)                     |1, 2                       |
+|Unknown unknowns dominate                               |7 (Negative Space)                 |1, 2, 5                    |
+|Variable space too large to model directly              |8 (Constraint Reduction)           |any without running 8 first|
+|System near a qualitative transition                    |9 (Threshold Detection)            |1                          |
+
+**Operation mismatch is the most common forecasting error.** Applying Pattern Extrapolation (Operation 1) to a system approaching a structural break. Applying Causal Modeling (Operation 2) to a variable whose causal structure is unknown. Applying Analogical reasoning (Operation 6) to a situation with no valid historical precedent. The method is technically executed correctly and produces a wrong answer — because Gate 3 was skipped.
+
+-----
+
+#### The Forecast Variable Forge Protocol
+
+Meta-Operation 0 has a formal implementation: the **Forecast Variable Forge**. Before any forecast model is built, run a Constraint Forge pass on the variable set:
+
+1. **List** all candidate variables
+1. **Apply Gate 1** — eliminate intrinsically unforecastable variables
+1. **Apply Gate 2** — eliminate variables where no edge exists over the consensus
+1. **Apply Gate 3** — assign remaining variables to appropriate operations
+1. **Stop** when the remaining variable set and operation assignments feel inevitable, not just acceptable
+
+The Forge output is not a forecast. It is a pre-forecast specification: these variables, these operations, these constraints on method selection. The forecast built on this foundation has an explicit epistemological warrant. The forecast built without it is an unexamined assumption dressed in methodology.
+
+-----
+
+#### The Content Veracity Protocol as Meta-Operation 0 Applied to AI Claims
+
+The CVP is Meta-Operation 0 applied to claims produced by AI systems rather than human forecasters. Before accepting an AI-generated claim, run the same three gates:
+
+- **Gate 1 (Forecastability):** Is this claim about something the AI can actually know? Claims about current events past the knowledge cutoff, claims about specific individuals’ private states, claims about novel empirical questions with no training data — these fail Gate 1. The AI is forecasting on an unforecastable variable.
+- **Gate 2 (Edge):** Does the AI have information advantage over the available consensus? For well-documented, widely-studied questions, the AI’s training data may be no better than a quick search. The marginal value of the AI’s “forecast” is near zero.
+- **Gate 3 (Operation):** Which epistemic operation did the AI use to generate this claim — and was it appropriate? An AI using pattern matching (Operation 1) on a causal question (requires Operation 2) will produce a confident, plausible, structurally wrong answer.
+
+The CVP catches operation mismatch at the output layer. Meta-Operation 0 catches it at the input layer. They are the same discipline applied at different points in the forecasting pipeline.
+
+-----
+
+**Stop condition for Meta-Operation 0:** If all candidate variables fail Gates 1 or 2, the correct output is: “A forecast on this question is not warranted with available information.” That is not a failure. It is the honest failure mode that every forecasting discipline claims to have and almost none actually implements.
+
+-----
 
 ### Operation 1: Pattern Extrapolation
 
@@ -103,6 +190,8 @@ Operation 4 contains two related but mechanically distinct sub-operations. They 
 **The critical insight:** You are not forecasting the outcome — you are forecasting the market’s error. If the market has already priced in everything you know, you have no edge. The forecaster’s job is to find what the consensus missed, not to confirm what it already believes.
 
 **The honest failure:** A forecaster with no edge should not forecast. The discipline of identifying your edge — and refusing to bet when you don’t have one — is the most important cognitive move gambling developed and academia has not adopted.
+
+**The CVP connection:** Operation 4a’s core discipline — detecting where the consensus is structurally wrong — maps directly onto the Content Veracity Protocol. The CVP asks, for any AI-generated claim: where is the AI’s confidence higher than its information warrants? That is Kelly’s question applied to epistemic claims rather than probability bets. The AI’s “line” is its expressed confidence. The CVP’s job is to find where that line is mispriced — where the AI is treating an ASSERTED or GENERATED claim as VERIFIED, or where it is applying a low-precision operation (pattern matching) to a question that requires high-precision reasoning (causal modeling). The CVP is a value-betting framework for epistemology: find the gap between expressed confidence and warranted confidence, and refuse to accept claims where that gap is large. This is why the CVP maps to 4a in the Sovereign Thinking Tools table rather than to a verification operation — it is not checking facts, it is detecting mispriced certainty.
 
 **Where it fails:** When you become large enough to move the line. The price-taker assumption breaks down for sophisticated actors whose bets shift the consensus they were trying to beat.
 
@@ -316,24 +405,25 @@ This taxonomy was built using a three-pass sweep:
 
 ## Connection to Sovereign Thinking Tools
 
-|Operation                              |Sovereign Thinking Tool                                                                                            |
-|---------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-|1: Pattern Extrapolation               |Entropy Sniffer (detects when extrapolation is breaking down)                                                      |
-|2: Causal Modeling                     |Syllogism Engine (formalizes causal chains, tests load-bearing premises)                                           |
-|3: Ensemble / Uncertainty              |Content Veracity Protocol (uncertainty partitioning for AI claims)                                                 |
-|4a: Market-Gap Detection               |Trust Calibrator (where is the consensus about AI safety wrong?)                                                   |
-|4b: Aggregative Probability Elicitation|Negative Space Mapper + Content Veracity Protocol (what is the consensus missing, and is its confidence warranted?)|
-|5: Structural / Mechanistic            |Frozen Kernel (structural constraints as mechanistic safety model)                                                 |
-|6: Analogical / Historical             |Analogical Translation Engine                                                                                      |
-|7: Absence / Negative Space            |Negative Space Mapper                                                                                              |
-|8: Constraint-Based Reduction          |Constraint Forge + Constraint Inversion Engine                                                                     |
-|9: Threshold Boundary Detection        |Tool 47: Cascade Failure Detector (Phase 3: Threshold Test)                                                        |
+|Operation                              |Sovereign Thinking Tool                                                                                                                           |
+|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+|0: Pre-Forecast Discipline             |Constraint Forge (variable reduction) + Epistemic Attribution Filter (Gate 2 edge test) + Content Veracity Protocol (operation mismatch detection)|
+|1: Pattern Extrapolation               |Entropy Sniffer (detects when extrapolation is breaking down)                                                                                     |
+|2: Causal Modeling                     |Syllogism Engine (formalizes causal chains, tests load-bearing premises)                                                                          |
+|3: Ensemble / Uncertainty              |Content Veracity Protocol (uncertainty partitioning for AI claims)                                                                                |
+|4a: Market-Gap Detection               |Trust Calibrator (where is the consensus about AI safety wrong?)                                                                                  |
+|4b: Aggregative Probability Elicitation|Negative Space Mapper + Content Veracity Protocol (what is the consensus missing, and is its confidence warranted?)                               |
+|5: Structural / Mechanistic            |Frozen Kernel (structural constraints as mechanistic safety model)                                                                                |
+|6: Analogical / Historical             |Analogical Translation Engine                                                                                                                     |
+|7: Absence / Negative Space            |Negative Space Mapper                                                                                                                             |
+|8: Constraint-Based Reduction          |Constraint Forge + Constraint Inversion Engine                                                                                                    |
+|9: Threshold Boundary Detection        |Tool 47: Cascade Failure Detector (Phase 3: Threshold Test)                                                                                       |
 
 -----
 
 ## Future Extensions
 
-**The Forecast Variable Forge protocol** — A pre-forecast discipline applying Constraint Forge logic to variable selection. Before any model is built: which variables are load-bearing? Which can be ruled out structurally? Run this before committing to a model architecture. Reduces combinatorial explosion in multi-variable forecasts. *Status: sketched, not yet formalized.*
+**The Forecast Variable Forge protocol** — A pre-forecast discipline applying Constraint Forge logic to variable selection. Formalized as part of Meta-Operation 0 (Pre-Forecast Discipline) in this document. *Status: formalized in v1.2.*
 
 **Weather AI as honest failure benchmark** — GenCast’s ensemble spread as a concrete example of honest failure operationalized at scale. Proposed addition to the Frozen Kernel README, Independent Validation section. *Status: flagged, pending.*
 
