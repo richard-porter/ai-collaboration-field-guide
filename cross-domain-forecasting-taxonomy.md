@@ -433,5 +433,5 @@ This taxonomy was built using a three-pass sweep:
 
 -----
 
-*Cross-Domain Forecasting Taxonomy · AI Collaboration Field Guide · v1.0 · March 2026*
+*Cross-Domain Forecasting Taxonomy · AI Collaboration Field Guide · v1.2 · March 2026*
 *Repository: ai-collaboration-field-guide/cross-domain-forecasting-taxonomy.md*
