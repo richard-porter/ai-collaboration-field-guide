@@ -958,6 +958,60 @@ Deploy when: A task has passed through more than one person, role, or agent befo
 
 *Cross-reference: Trust Chain Protocol (TCP) — authority collapse and scope decay models address the same logic at network scale for multi-agent systems. Deontic Boundary Verifier (Tool 42) — Check 3 performs the same audit within a single document or session.*
 
+## X. STRUCTURAL CATEGORY
+
+*Pre-decision diagnostics for system architecture. Run before deployment,
+not during operation. These tools examine whether a system's design
+assumptions hold under stress — before the stress arrives.*
+
+---
+
+### 47. Cascade Failure Detector
+
+**When a system is assumed to be resilient and you need to test whether
+that claim holds.**
+
+Most resilience analysis asks: "What happens if this fails?" Cascade
+detection asks the harder question: "What happens if three things fail
+at once — and the third failure is caused by our response to the first
+two?"
+
+**Protocol:**
+
+- **Inventory:** List 4–8 load-bearing variables. Use Constraint Forge
+  first if the list is long.
+- **Independence Test:** For each variable pair, ask: is there a single
+  event that could cause both to fail simultaneously? Map shared
+  triggers. Variables with shared triggers form coupled clusters.
+- **Threshold Test:** For each cluster, find the minimum simultaneous
+  failures that produce system failure. Then ask: what single trigger
+  exceeds that threshold? Flag if any component of the safety
+  architecture is itself a cascade engine.
+- **Response Trap:** Map who has system-level visibility when the
+  cascade initiates — and who doesn't. Identify locally rational
+  decisions that compound the cascade.
+- **Informed Inaction (4B):** If actors had system-level visibility and
+  chose not to act, ask: what made inaction locally rational? Detection
+  alone is insufficient when inaction is incentivized — governance
+  redesign required.
+- **Verify:** Scope / Inventory / Independence / Threshold / Safety
+  mechanism / Response trap / Informed inaction / Sovereignty
+
+**Cascade Risk Rating:** RESILIENT / CONDITIONALLY RESILIENT /
+CASCADE RISK / CASCADING NOW
+
+**Stop if:** The tool is producing anxiety rather than clarity. Return
+to Phase 1 and Forge the variable list first. This is pre-decision
+diagnostic — not incident response.
+
+*Full protocol with stress test results (Northeast Blackout 2003,
+Financial Crisis 2007–2008): `sovereign-thinking-tools/cascade-failure-detector.md`*
+
+*Cross-reference: Constraint Forge (run first), Constraint Inversion
+Engine (Phase 3), Negative Space Mapper (Phase 4), Behavioral Drift
+Detection Ledger (Drift Through Accumulated Context is a response trap
+at interaction layer — `safety-ledgers/behavioral-drift-detection-ledger.md`).*
+
 -----
 
 ## IX. CANDIDATES & WATCHLIST
