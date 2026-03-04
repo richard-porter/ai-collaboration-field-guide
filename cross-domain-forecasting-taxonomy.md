@@ -3,7 +3,7 @@
 ## A Cognitive Operations Framework for Predictive Reasoning
 
 **Part of the AI Collaboration Field Guide**
-*Richard Porter · v1.0 · March 2026*
+*Richard Porter · v1.1 · March 2026*
 
 -----
 
@@ -21,17 +21,18 @@ This taxonomy organizes forecasting by **cognitive operation** rather than by di
 
 ## The Eight (Plus One) Epistemic Operations
 
-|#|Operation                     |Core Question                        |Fields That Own It                         |
-|-|------------------------------|-------------------------------------|-------------------------------------------|
-|1|Pattern Extrapolation         |Will the past continue?              |Economics, finance, demography             |
-|2|Causal Modeling               |What drives the outcome?             |Epidemiology, economics, engineering       |
-|3|Ensemble / Uncertainty Mapping|What is the distribution of futures? |Meteorology, climate science               |
-|4|Market-Gap Detection          |Where is consensus wrong?            |Gambling, prediction markets               |
-|5|Structural / Mechanistic      |What are the physics of this system? |Epidemiology, engineering, toxicology      |
-|6|Analogical / Historical       |What does this resemble?             |Military strategy, intelligence, medicine  |
-|7|Absence / Negative Space      |What is not being forecast?          |Counterintelligence, ecology, journalism   |
-|8|Constraint-Based Reduction    |What can we rule out before modeling?|Operations research, constraint programming|
-|9|Threshold Boundary Detection  |Where is the cliff edge?             |Toxicology, engineering, finance           |
+|# |Operation                          |Core Question                               |Fields That Own It                         |
+|--|-----------------------------------|--------------------------------------------|-------------------------------------------|
+|1 |Pattern Extrapolation              |Will the past continue?                     |Economics, finance, demography             |
+|2 |Causal Modeling                    |What drives the outcome?                    |Epidemiology, economics, engineering       |
+|3 |Ensemble / Uncertainty Mapping     |What is the distribution of futures?        |Meteorology, climate science               |
+|4a|Market-Gap Detection               |Where is the consensus wrong?               |Gambling, sports betting                   |
+|4b|Aggregative Probability Elicitation|How do we construct the consensus correctly?|Prediction markets, superforecasting       |
+|5 |Structural / Mechanistic           |What are the physics of this system?        |Epidemiology, engineering, toxicology      |
+|6 |Analogical / Historical            |What does this resemble?                    |Military strategy, intelligence, medicine  |
+|7 |Absence / Negative Space           |What is not being forecast?                 |Counterintelligence, ecology, journalism   |
+|8 |Constraint-Based Reduction         |What can we rule out before modeling?       |Operations research, constraint programming|
+|9 |Threshold Boundary Detection       |Where is the cliff edge?                    |Toxicology, engineering, finance           |
 
 Operation 9 is a candidate for full column status. See the Toxicology section below for the case for its promotion.
 
@@ -85,19 +86,43 @@ Operation 9 is a candidate for full column status. See the Toxicology section be
 
 -----
 
-### Operation 4: Market-Gap Detection
+### Operation 4: Probability Arbitrage
 
-**Core claim:** The forecast is not “what will happen” but “where is the consensus wrong?” The forecaster’s edge is identifying mispriced probability.
+Operation 4 contains two related but mechanically distinct sub-operations. They share a foundational insight — probability is information, and mispriced probability is exploitable signal — but differ in who benefits and how the consensus is constructed.
 
-**Canonical method:** Kelly Criterion, value betting, prediction market arbitrage, Bayesian updating against market odds.
+-----
 
-**The gambling contribution:** Kelly (Bell Labs, 1956) formalized the insight that forecasting is an information theory problem. The Kelly Criterion maximizes long-term wealth growth by sizing bets proportional to the forecaster’s edge — the gap between their probability estimate and the market’s. Full Kelly is theoretically optimal but leads to ruin in realistic scenarios; fractional Kelly (0.5 coefficient) deliberately understates confidence in one’s own model.
+#### Operation 4a: Market-Gap Detection
 
-**The critical insight:** The market IS the forecast. You are not forecasting the outcome — you are forecasting the market’s error. If the market has already priced in everything you know, you have no edge. The forecaster’s job is to find what the consensus missed, not to confirm what it already believes.
+**Core claim:** The forecast is not “what will happen” but “where is the consensus wrong?” The forecaster’s edge is identifying mispriced probability. You are a price-taker betting against a spread set by others.
 
-**Where it fails:** When you ARE the market. Large bettors, large funds, and sophisticated actors move prices. Their forecast changes the thing it was forecasting. This is endogenous invalidation — the forecast affects the outcome. Prediction markets for elections face the same problem: published forecasts affect turnout.
+**Canonical method:** Kelly Criterion, value betting, fractional Kelly strategies.
+
+**The gambling contribution:** Kelly (Bell Labs, 1956) formalized the insight that forecasting is an information theory problem. The Kelly Criterion maximizes long-term wealth growth by sizing bets proportional to the forecaster’s edge — the gap between their probability estimate and the market’s. Full Kelly is theoretically optimal but leads to ruin in realistic scenarios; fractional Kelly (0.5 coefficient) deliberately understates confidence in one’s own model. This deliberate underconfidence is one of the most rigorous honest-failure conventions in any forecasting discipline.
+
+**The critical insight:** You are not forecasting the outcome — you are forecasting the market’s error. If the market has already priced in everything you know, you have no edge. The forecaster’s job is to find what the consensus missed, not to confirm what it already believes.
 
 **The honest failure:** A forecaster with no edge should not forecast. The discipline of identifying your edge — and refusing to bet when you don’t have one — is the most important cognitive move gambling developed and academia has not adopted.
+
+**Where it fails:** When you become large enough to move the line. The price-taker assumption breaks down for sophisticated actors whose bets shift the consensus they were trying to beat.
+
+-----
+
+#### Operation 4b: Aggregative Probability Elicitation
+
+**Core claim:** The market mechanism itself is the forecast. You are a price-maker contributing to a self-correcting consensus. The aggregate of distributed private information, surfaced through incentives, produces a more accurate probability estimate than any individual forecaster — including experts.
+
+**Canonical method:** Prediction markets (Metaculus, Polymarket, Iowa Electronic Markets), Delphi method, superforecasting panels, wisdom-of-crowds aggregation.
+
+**The Hayek mechanism:** Prediction markets operationalize Hayek’s price mechanism as an epistemological tool. Prices aggregate distributed information that no central authority can collect. The market price is not one person’s forecast — it is the continuously updated weighted average of all participants’ private information, with financial incentives ensuring that better-informed participants have disproportionate influence.
+
+**The superforecasting contribution:** Tetlock’s Good Judgment Project (2011–2015) found that a small subset of forecasters — superforecasters — systematically outperform domain experts, intelligence analysts, and naive prediction markets. Their distinguishing practices: disciplined Bayesian updating when new evidence arrives, active search for disconfirming evidence, decomposition of hard questions into tractable sub-questions, and calibration discipline (knowing when your confidence is warranted). Superforecasting is a human cognitive discipline that prediction markets institutionalize but sports betting never required — because in sports betting, the individual forecaster’s process is private. In prediction markets, the process is the product.
+
+**What this adds beyond 4a:** In Market-Gap Detection, the individual forecaster benefits by finding the consensus’s error. In Aggregative Probability Elicitation, the consensus benefits by incorporating the individual’s information. The mechanism runs in opposite directions. 4a extracts value from a mispriced market. 4b improves the market’s pricing.
+
+**The endogenous invalidation problem (acute in 4b):** Prediction markets on elections visibly affect turnout. Prediction markets on corporate performance affect investor behavior and therefore the performance being predicted. Published election forecasts in 2016 and 2020 demonstrably affected voter participation. The forecast and the outcome are not independent — a problem 4a mostly avoids because individual bettors rarely move lines significantly, but 4b faces structurally because the market price is public and widely observed.
+
+**Where it fails:** Thin markets with few participants lose the aggregation benefit and become vulnerable to manipulation. Markets on questions with long resolution horizons (will AI cause a recession by 2030?) attract less participation and produce less reliable estimates than markets on near-term binary outcomes. And the endogenous invalidation problem has no clean solution — the more accurate and widely trusted the prediction market becomes, the more it affects what it is predicting.
 
 -----
 
@@ -205,12 +230,21 @@ Operation 9 is a candidate for full column status. See the Toxicology section be
 
 -----
 
-### Gambling and Prediction Markets
+### Gambling and Sports Betting
 
-**Primary operations:** 4 (Market-Gap Detection)
+**Primary operations:** 4a (Market-Gap Detection)
 **Unique contribution:** The Kelly Criterion as information theory applied to forecasting. Fractional Kelly as a formal acknowledgment that models are always overconfident. The discipline of forecasting the consensus’s error rather than the outcome itself.
 **The underrated insight:** Sports betting ML research (2024 systematic review) confirms that Kelly Criterion, value betting, and fractional Kelly strategies dominate naive approaches in long-run performance. The field serious academics ignored for decades developed the most rigorous formal treatment of forecasting under uncertainty precisely because it evolved under real consequence conditions over long time periods.
-**Negative space gap:** Prediction markets collapse when the forecaster IS the market. Large sophisticated actors face endogenous invalidation — their forecast changes what it’s forecasting. The field has no mature solution to this.
+**Negative space gap:** 4a methodology breaks down when the forecaster becomes large enough to move the line. The price-taker assumption is the load-bearing constraint — remove it and the Kelly Criterion no longer applies cleanly.
+
+-----
+
+### Prediction Markets and Superforecasting
+
+**Primary operations:** 4b (Aggregative Probability Elicitation)
+**Unique contribution:** Hayek’s price mechanism applied to epistemology. Tetlock’s superforecasting methodology — Bayesian updating, active disconfirmation, question decomposition, calibration discipline. The insight that aggregated distributed information outperforms centralized expert judgment.
+**The mechanistic difference from 4a:** Gambling extracts value from a mispriced market. Prediction markets improve the market’s pricing. The information flow runs in opposite directions.
+**Negative space gap:** Endogenous invalidation is structurally unsolved. The more accurate and widely trusted a prediction market becomes, the more it affects what it is predicting. Tetlock’s superforecasters avoid this because their forecasts are not public price signals — but public prediction markets cannot escape it.
 
 -----
 
@@ -282,17 +316,18 @@ This taxonomy was built using a three-pass sweep:
 
 ## Connection to Sovereign Thinking Tools
 
-|Operation                      |Sovereign Thinking Tool                                                 |
-|-------------------------------|------------------------------------------------------------------------|
-|1: Pattern Extrapolation       |Entropy Sniffer (detects when extrapolation is breaking down)           |
-|2: Causal Modeling             |Syllogism Engine (formalizes causal chains, tests load-bearing premises)|
-|3: Ensemble / Uncertainty      |Content Veracity Protocol (uncertainty partitioning for AI claims)      |
-|4: Market-Gap Detection        |Trust Calibrator (where is the consensus about AI safety wrong?)        |
-|5: Structural / Mechanistic    |Frozen Kernel (structural constraints as mechanistic safety model)      |
-|6: Analogical / Historical     |Analogical Translation Engine                                           |
-|7: Absence / Negative Space    |Negative Space Mapper                                                   |
-|8: Constraint-Based Reduction  |Constraint Forge + Constraint Inversion Engine                          |
-|9: Threshold Boundary Detection|Tool 47: Cascade Failure Detector (Phase 3: Threshold Test)             |
+|Operation                              |Sovereign Thinking Tool                                                                                            |
+|---------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+|1: Pattern Extrapolation               |Entropy Sniffer (detects when extrapolation is breaking down)                                                      |
+|2: Causal Modeling                     |Syllogism Engine (formalizes causal chains, tests load-bearing premises)                                           |
+|3: Ensemble / Uncertainty              |Content Veracity Protocol (uncertainty partitioning for AI claims)                                                 |
+|4a: Market-Gap Detection               |Trust Calibrator (where is the consensus about AI safety wrong?)                                                   |
+|4b: Aggregative Probability Elicitation|Negative Space Mapper + Content Veracity Protocol (what is the consensus missing, and is its confidence warranted?)|
+|5: Structural / Mechanistic            |Frozen Kernel (structural constraints as mechanistic safety model)                                                 |
+|6: Analogical / Historical             |Analogical Translation Engine                                                                                      |
+|7: Absence / Negative Space            |Negative Space Mapper                                                                                              |
+|8: Constraint-Based Reduction          |Constraint Forge + Constraint Inversion Engine                                                                     |
+|9: Threshold Boundary Detection        |Tool 47: Cascade Failure Detector (Phase 3: Threshold Test)                                                        |
 
 -----
 
