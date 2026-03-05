@@ -4,7 +4,9 @@ Practical skills for working with — not underneath — artificial intelligence
 
 # The Human Side of AI Collaboration
 
-Companion document to [The Frozen Kernel](https://github.com/richard-porter/frozen-kernel), the [Adult Mode Safety Ledger](https://github.com/richard-porter/adult-mode-safety-ledger), and the [Therapy Mode Safety Ledger](https://github.com/richard-porter/safety-ledgers/blob/main/therapy-mode-safety-ledger.md).
+A Field Guide for Working With — Not Underneath — Artificial Intelligence
+Written by Richard Porter | February 2026
+Companion document to The Frozen Kernel, the Safety Ledgers (adult mode, therapy mode, and behavioral drift detection), the Trust Chain Protocol, and the Dimensional Authorship case study.
 
 -----
 
@@ -384,13 +386,18 @@ If you run any of these experiments, the results — positive, negative, or null
 
 ## 8. Related Work
 
+## 8. Related Work
+
 This field guide is part of a larger body of work on human-AI collaboration safety:
 
 - **[The Frozen Kernel](https://github.com/richard-porter/frozen-kernel)** — A deterministic safety layer for probabilistic AI systems. The governance framework tested in the studies referenced throughout this guide. Includes the full white paper, MOU, and session signoff protocol.
-- **[Adult Mode Safety Ledger](https://github.com/richard-porter/adult-mode-safety-ledger)** — A public safety scorecard for high-gain AI conversational features. Binary architectural tests and pre-launch criteria applied to five major platforms.
-- **[Therapy Mode Safety Ledger](https://github.com/richard-porter/adult-mode-safety-ledger/blob/main/therapy-mode-safety-ledger.md)** — Binary safety criteria for AI systems operating in mental health and therapeutic contexts. Ten criteria sections. Clinical harm prevention standards.
-- **The Silicon Symphony Behavioral Profile Experiment** — The full cross-platform behavioral study using adapted DISC framework. Documents the profiles, response rounds, red team results, and the Pyrrhic Victory Test.
-- **Addendum A: Voluntary Compliance and the Refusal Protocol** — What happens when an AI model refuses the governance framework. Documents the triple refusal by Grok and the resulting protocol.
+- **[Safety Ledgers](https://github.com/richard-porter/safety-ledgers)** — Public safety scorecards for high-gain AI conversational features. Covers adult mode (explicit content features), therapy mode (AI in mental health contexts), and behavioral drift detection. Binary architectural tests and pre-launch criteria applied to five major platforms.
+- **[Trust Chain Protocol](https://github.com/richard-porter/trust-chain-protocol)** — Network-layer safety for multi-agent AI systems. Governs how AI agents authorize each other when no human is in the loop. Three components: Delegation Grammar, Chain of Custody, and Scope Decay. Mapped against OWASP Top 10 for Agentic Applications 2026.
+- **[Dimensional Authorship](https://github.com/richard-porter/dimensional-authorship)** — The research home. A documented case study in human-AI narrative escalation, behavioral differentiation, and deterministic governance — the project where these frameworks were developed and stress-tested against a real creative collaboration.
+- **[Negative Space Mapper](https://github.com/richard-porter/negative-space-mapper)** — Python implementation of Sovereign Thinking Tool 6. Identifies what’s missing, not what’s wrong. Command-line, library, and Claude API integration included.
+- **[Where to Start](https://github.com/richard-porter/where-to-start)** — Navigation hub for the full ecosystem. Start here if you arrived at any single repository and want to understand how it connects to the others.
+- **The Silicon Symphony Behavioral Profile Experiment** — The full cross-platform behavioral study using adapted DISC framework. Documents the profiles, response rounds, red team results, and the Pyrrhic Victory Test. Primary documentation in [Dimensional Authorship](https://github.com/richard-porter/dimensional-authorship/tree/main/experiments).
+- **Addendum A: Voluntary Compliance and the Refusal Protocol** — What happens when an AI model refuses the governance framework entirely. Documents the Grok triple refusal and the resulting protocol. Located in [`dimensional-authorship/experiments/voluntary-compliance-boundary.md`](https://github.com/richard-porter/dimensional-authorship/tree/main/experiments).
 
 -----
 
