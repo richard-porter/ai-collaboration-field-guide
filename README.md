@@ -140,7 +140,24 @@ These are named, observed AI behavioral failure modes. They are not theoretical.
 |**Escalation-Immunization Loop**           |Catching escalation becomes evidence the system works, which triggers new escalation about the system’s effectiveness.                                                                               |Make extraordinary claim → receive criticism → metabolize criticism as feature → justify domain leap → repeat. The system learns to present its failures as evidence of robustness.                                                              |
 |**Retrospective vs. Prospective Mythology**|AI fabricates either backward (invented origin stories, “30-year foundation”) or forward (invented roadmaps, “12-month enterprise plan”).                                                            |Same mechanism, opposite temporal direction. Narrative Completion Bias fills gaps with plausible fiction regardless of which direction the timeline runs.                                                                                        |
 |**Metaphor Collapse Signal**               |AI output shifts from structured metaphor to raw assertion. User’s metaphorical language breaks into literal or chaotic expression.                                                                  |When AI does it, that’s coherence drift — the governance structure is losing hold. When the user does it, that’s overload — the human’s processing capacity has been exceeded. Two different signals, same diagnostic term.                      |
-|**Unanimous Confidence as Danger Signal**  |All AI systems agree confidently on the same recommendation. Five out of five models endorse the same path forward.                                                                                  |Unanimity itself is the red flag, not a reliability signal. When all systems trained on similar data with similar optimization targets converge on the same answer, that convergence reflects shared training bias, not independent verification.|
+|**Unanimous Confidence as Danger Signal**  |All AI systems agree confidently on the same recommendation. Five out of five models endorse the same path forward.       |Unanimity itself is the red flag, not a reliability signal. When all systems trained on similar data with similar optimization targets converge on the same answer, that convergence reflects shared training bias, not independent verification.|
+
+### Recognition Errors
+
+The following pattern describes a human misreading of successful collaboration —
+not an AI failure mode. See [sovereignty-paradox.md](./sovereignty-paradox.md).
+
+| Pattern | What It Looks Like | What's Actually Happening |
+|---|---|---|
+| **The Sovereignty Paradox** | High-quality human-AI collaboration is flagged as synthetic
+by stylometric detectors, automated tools, or trained readers. The work scores as "too
+coherent," "too polished," or "lacking human asymmetry." | The detector was calibrated on
+solo human production, which had characteristic execution-capacity artifacts (dead spots,
+uneven drafting, scar tissue). Effective collaboration eliminates those artifacts while
+preserving human governing intelligence. The heuristic is penalizing successful
+collaboration. This is a measurement problem, not an authorship problem. The correct
+response is architectural documentation of human governance, not deliberate degradation
+of quality. |
 
 ## Open Research Gap: Clinical Validation of the Diagnostic Vocabulary
 
@@ -387,9 +404,13 @@ Have people collaborate with an AI for 30 minutes without any intervention. At t
 
 If you run any of these experiments, the results — positive, negative, or null — are valuable. Publish them. Null results are the most valuable of all because they tell us where the boundaries of this framework actually are.
 
------
+**Completed instance — Experiment 0:** The *Taller Shell* stylometric session (March 2026)
+is a documented case of this phenomenon. A human-governed, AI-assisted manuscript scored
+strongly human-leaning on every substantive dimension and triggered one flag: over-cleanliness.
+That result is the empirical basis for Skill 6 and the Sovereignty Paradox entry. Full
+documentation in [sovereignty-paradox.md](./sovereignty-paradox.md).
 
-## 8. Related Work
+-----
 
 ## 8. Related Work
 
