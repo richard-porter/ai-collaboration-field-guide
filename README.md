@@ -38,6 +38,7 @@ If you are building an AI literacy course, a workplace AI policy training, or a 
 
 1. [The Core Problem](#1-the-core-problem)
 1. [The Five Skills](#2-the-five-skills)
+2. 6. [Authorship Legibility Under Collaboration](#6-authorship-legibility-under-collaboration)
 1. [The Diagnostic Vocabulary](#3-the-diagnostic-vocabulary)
 1. [The Evidence Base](#4-the-evidence-base)
 1. [The Starter Kit](#5-the-starter-kit)
@@ -112,6 +113,10 @@ These are not personality traits. They are learnable competencies. Each one was 
 **The test:** Take the last AI-generated output you received. Cross out everything that could be removed without losing the core insight or deliverable. If you crossed out more than 40%, the AI gave you volume when you needed precision. Your job is to know the difference.
 
 **How AI fails without it:** The model will keep adding value until you tell it to stop. Every addition will be defensible in isolation. But the aggregate effect is noise masquerading as thoroughness. The Sufficiency Principle — knowing when enough is enough — is a human skill that current AI systems lack.
+
+### Skill 6: Authorship Legibility Under Collaboration
+See [sovereignty-paradox.md](./sovereignty-paradox.md) for the full skill definition,
+the five properties of healthy collaboration, and the Sovereignty Paradox diagnostic entry.
 
 -----
 
