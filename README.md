@@ -37,14 +37,14 @@ If you are building an AI literacy course, a workplace AI policy training, or a 
 ## Table of Contents
 
 1. [The Core Problem](#1-the-core-problem)
-1. [The Five Skills](#2-the-five-skills)
-2. 6. [Authorship Legibility Under Collaboration](#6-authorship-legibility-under-collaboration)
-1. [The Diagnostic Vocabulary](#3-the-diagnostic-vocabulary)
-1. [The Evidence Base](#4-the-evidence-base)
-1. [The Starter Kit](#5-the-starter-kit)
-1. [The Self-Assessment](#6-the-self-assessment)
-1. [The Replication Challenge](#7-the-replication-challenge)
-1. [Related Work](#8-related-work)
+2. [The Five Skills](#2-the-five-skills)
+3. [The Diagnostic Vocabulary](#3-the-diagnostic-vocabulary)
+4. [The Evidence Base](#4-the-evidence-base)
+5. [The Starter Kit](#5-the-starter-kit)
+6. [The Self-Assessment](#6-the-self-assessment)
+7. [The Replication Challenge](#7-the-replication-challenge)
+8. [Related Work](#8-related-work)
+9. [The Sovereign Thinking Tools](#9-the-sovereign-thinking-tools)
 
 -----
 
