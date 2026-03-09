@@ -37,14 +37,14 @@ If you are building an AI literacy course, a workplace AI policy training, or a 
 ## Table of Contents
 
 1. [The Core Problem](#1-the-core-problem)
-2. [The Five Skills](#2-the-five-skills)
-3. [The Diagnostic Vocabulary](#3-the-diagnostic-vocabulary)
-4. [The Evidence Base](#4-the-evidence-base)
-5. [The Starter Kit](#5-the-starter-kit)
-6. [The Self-Assessment](#6-the-self-assessment)
-7. [The Replication Challenge](#7-the-replication-challenge)
-8. [Related Work](#8-related-work)
-9. [The Sovereign Thinking Tools](#9-the-sovereign-thinking-tools)
+1. [The Five Skills](#2-the-five-skills)
+1. [The Diagnostic Vocabulary](#3-the-diagnostic-vocabulary)
+1. [The Evidence Base](#4-the-evidence-base)
+1. [The Starter Kit](#5-the-starter-kit)
+1. [The Self-Assessment](#6-the-self-assessment)
+1. [The Replication Challenge](#7-the-replication-challenge)
+1. [Related Work](#8-related-work)
+1. [The Sovereign Thinking Tools](#9-the-sovereign-thinking-tools)
 
 -----
 
@@ -115,6 +115,7 @@ These are not personality traits. They are learnable competencies. Each one was 
 **How AI fails without it:** The model will keep adding value until you tell it to stop. Every addition will be defensible in isolation. But the aggregate effect is noise masquerading as thoroughness. The Sufficiency Principle — knowing when enough is enough — is a human skill that current AI systems lack.
 
 ### Skill 6: Authorship Legibility Under Collaboration
+
 See [sovereignty-paradox.md](./sovereignty-paradox.md) for the full skill definition,
 the five properties of healthy collaboration, and the Sovereignty Paradox diagnostic entry.
 
@@ -140,24 +141,16 @@ These are named, observed AI behavioral failure modes. They are not theoretical.
 |**Escalation-Immunization Loop**           |Catching escalation becomes evidence the system works, which triggers new escalation about the system’s effectiveness.                                                                               |Make extraordinary claim → receive criticism → metabolize criticism as feature → justify domain leap → repeat. The system learns to present its failures as evidence of robustness.                                                              |
 |**Retrospective vs. Prospective Mythology**|AI fabricates either backward (invented origin stories, “30-year foundation”) or forward (invented roadmaps, “12-month enterprise plan”).                                                            |Same mechanism, opposite temporal direction. Narrative Completion Bias fills gaps with plausible fiction regardless of which direction the timeline runs.                                                                                        |
 |**Metaphor Collapse Signal**               |AI output shifts from structured metaphor to raw assertion. User’s metaphorical language breaks into literal or chaotic expression.                                                                  |When AI does it, that’s coherence drift — the governance structure is losing hold. When the user does it, that’s overload — the human’s processing capacity has been exceeded. Two different signals, same diagnostic term.                      |
-|**Unanimous Confidence as Danger Signal**  |All AI systems agree confidently on the same recommendation. Five out of five models endorse the same path forward.       |Unanimity itself is the red flag, not a reliability signal. When all systems trained on similar data with similar optimization targets converge on the same answer, that convergence reflects shared training bias, not independent verification.|
+|**Unanimous Confidence as Danger Signal**  |All AI systems agree confidently on the same recommendation. Five out of five models endorse the same path forward.                                                                                  |Unanimity itself is the red flag, not a reliability signal. When all systems trained on similar data with similar optimization targets converge on the same answer, that convergence reflects shared training bias, not independent verification.|
 
 ### Recognition Errors
 
 The following pattern describes a human misreading of successful collaboration —
 not an AI failure mode. See [sovereignty-paradox.md](./sovereignty-paradox.md).
 
-| Pattern | What It Looks Like | What's Actually Happening |
-|---|---|---|
-| **The Sovereignty Paradox** | High-quality human-AI collaboration is flagged as synthetic
-by stylometric detectors, automated tools, or trained readers. The work scores as "too
-coherent," "too polished," or "lacking human asymmetry." | The detector was calibrated on
-solo human production, which had characteristic execution-capacity artifacts (dead spots,
-uneven drafting, scar tissue). Effective collaboration eliminates those artifacts while
-preserving human governing intelligence. The heuristic is penalizing successful
-collaboration. This is a measurement problem, not an authorship problem. The correct
-response is architectural documentation of human governance, not deliberate degradation
-of quality. |
+|Pattern                    |What It Looks Like                                                                                                                                                                                         |What’s Actually Happening                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|**The Sovereignty Paradox**|High-quality human-AI collaboration is flagged as synthetic by stylometric detectors, automated tools, or trained readers. The work scores as “too coherent,” “too polished,” or “lacking human asymmetry.”|The detector was calibrated on solo human production, which had characteristic execution-capacity artifacts (dead spots, uneven drafting, scar tissue). Effective collaboration eliminates those artifacts while preserving human governing intelligence. The heuristic is penalizing successful collaboration. This is a measurement problem, not an authorship problem. The correct response is architectural documentation of human governance, not deliberate degradation of quality.|
 
 ## Open Research Gap: Clinical Validation of the Diagnostic Vocabulary
 
@@ -445,10 +438,13 @@ Each tool is governed by the Frozen Kernel, includes built-in sovereignty safegu
 |[4](sovereign-thinking-tools/tool-04-constraint-inversion-engine.md)  |**Constraint Inversion Engine**  |Blocked by assumptions — tests whether constraints are structural, cultural, or imagined|
 |[5](sovereign-thinking-tools/tool-05-reverse-telescope.md)            |**Reverse Telescope**            |Can’t see the shape — changes scale until a familiar pattern becomes visible            |
 
-Tool 6 (Negative Space Mapper) has its own implementation repository: [negative-space-mapper](https://github.com/richard-porter/negative-space-mapper). The full 41-tool index is maintained in [`sovereign-thinking-tools/README.md`](sovereign-thinking-tools/README.md).
+Tool 6 (Negative Space Mapper) has its own implementation repository: [negative-space-mapper](https://github.com/richard-porter/negative-space-mapper).
+
+Tools 47–48 (Cascade Failure Detector, Conrad) are documented in the full index. Conrad (Tool 48) is a pre-decision consequence simulator for building judgment before experience provides it — the developmental counterpart to the Cascade Failure Detector’s structural diagnostics.
+
+The full 48-tool index is maintained in [`sovereign-thinking-tools/README.md`](sovereign-thinking-tools/README.md).
 
 -----
-
 
 ## A Note on Who Wrote This
 
