@@ -45,6 +45,26 @@ These five tools address the most common failure modes in AI collaboration: bein
 
 -----
 
+### Structural Category (Tool 47)
+
+Pre-decision diagnostics for system architecture. Run before deployment, not during operation.
+
+|Tool                                          |Name                        |When to Use                                                                                         |
+|----------------------------------------------|----------------------------|----------------------------------------------------------------------------------------------------|
+|[Tool 47](tool-47-cascade-failure-detector.md)|**Cascade Failure Detector**|A system is claimed to be resilient — test whether that claim holds under coupled failure conditions|
+
+-----
+
+### Developmental Category (Tool 48)
+
+Training protocols for building judgment over time. The value compounds across uses. The goal is to need them less, not more.
+
+|Tool                        |Name      |When to Use                                                                                             |
+|----------------------------|----------|--------------------------------------------------------------------------------------------------------|
+|[Tool 48](tool-48-conrad.md)|**Conrad**|Before a consequential decision — simulate failure paths to build judgment before experience provides it|
+
+-----
+
 ## How They Relate
 
 These tools are designed to work together and with the broader ecosystem:
@@ -53,6 +73,7 @@ These tools are designed to work together and with the broader ecosystem:
 - **Tool 3 (Compression Filter) pairs with Tool 6 (Negative Space Mapper).** Compress what’s present; map what’s absent.
 - **Tool 4 (Constraint Inversion Engine) feeds Tool 2 (Constraint Forge).** Test whether your constraints are real before you forge with them.
 - **Tool 5 (Reverse Telescope) pairs with Tool 4.** See the problem at scale first, then test whether the constraints that apply at current scale are structural or assumed.
+- **Tool 47 (Cascade Failure Detector) and Tool 48 (Conrad) are complementary.** Cascade examines systems before deployment. Conrad examines the practitioner making the decision. Tool 48 Phase 3 escalates to Tool 47 when second-order consequences form a coupled cluster.
 
 Tool 6 (Negative Space Mapper) has its own implementation repository: [negative-space-mapper](https://github.com/richard-porter/negative-space-mapper).
 
@@ -83,4 +104,4 @@ These tools operate under the [Frozen Kernel](https://github.com/richard-porter/
 
 *Released for public benefit under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
 
-*🧊 SOVEREIGN THINKING TOOLS · v3.0 · FROZEN KERNEL SYSTEM*
+*🧊 SOVEREIGN THINKING TOOLS · v3.4 · FROZEN KERNEL SYSTEM*
