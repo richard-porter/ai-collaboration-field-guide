@@ -1,6 +1,6 @@
 # Sovereign Thinking Tools
 
-## Complete Tool Reference — v3.3
+## Complete Tool Reference — v3.4
 
 **A Kernel-Compliant Cognitive Toolkit**
 
@@ -958,63 +958,84 @@ Deploy when: A task has passed through more than one person, role, or agent befo
 
 *Cross-reference: Trust Chain Protocol (TCP) — authority collapse and scope decay models address the same logic at network scale for multi-agent systems. Deontic Boundary Verifier (Tool 42) — Check 3 performs the same audit within a single document or session.*
 
-## X. STRUCTURAL CATEGORY
+-----
 
-*Pre-decision diagnostics for system architecture. Run before deployment,
-not during operation. These tools examine whether a system's design
-assumptions hold under stress — before the stress arrives.*
+## IX. STRUCTURAL CATEGORY
 
----
-
-### 47. Cascade Failure Detector
-
-**When a system is assumed to be resilient and you need to test whether
-that claim holds.**
-
-Most resilience analysis asks: "What happens if this fails?" Cascade
-detection asks the harder question: "What happens if three things fail
-at once — and the third failure is caused by our response to the first
-two?"
-
-**Protocol:**
-
-- **Inventory:** List 4–8 load-bearing variables. Use Constraint Forge
-  first if the list is long.
-- **Independence Test:** For each variable pair, ask: is there a single
-  event that could cause both to fail simultaneously? Map shared
-  triggers. Variables with shared triggers form coupled clusters.
-- **Threshold Test:** For each cluster, find the minimum simultaneous
-  failures that produce system failure. Then ask: what single trigger
-  exceeds that threshold? Flag if any component of the safety
-  architecture is itself a cascade engine.
-- **Response Trap:** Map who has system-level visibility when the
-  cascade initiates — and who doesn't. Identify locally rational
-  decisions that compound the cascade.
-- **Informed Inaction (4B):** If actors had system-level visibility and
-  chose not to act, ask: what made inaction locally rational? Detection
-  alone is insufficient when inaction is incentivized — governance
-  redesign required.
-- **Verify:** Scope / Inventory / Independence / Threshold / Safety
-  mechanism / Response trap / Informed inaction / Sovereignty
-
-**Cascade Risk Rating:** RESILIENT / CONDITIONALLY RESILIENT /
-CASCADE RISK / CASCADING NOW
-
-**Stop if:** The tool is producing anxiety rather than clarity. Return
-to Phase 1 and Forge the variable list first. This is pre-decision
-diagnostic — not incident response.
-
-*Full protocol with stress test results (Northeast Blackout 2003,
-Financial Crisis 2007–2008): `sovereign-thinking-tools/cascade-failure-detector.md`*
-
-*Cross-reference: Constraint Forge (run first), Constraint Inversion
-Engine (Phase 3), Negative Space Mapper (Phase 4), Behavioral Drift
-Detection Ledger (Drift Through Accumulated Context is a response trap
-at interaction layer — `safety-ledgers/behavioral-drift-detection-ledger.md`).*
+*Pre-decision diagnostics for system architecture. Run before deployment, not during operation. These tools examine whether a system’s design assumptions hold under stress — before the stress arrives.*
 
 -----
 
-## IX. CANDIDATES & WATCHLIST
+### 47. Cascade Failure Detector
+
+**When a system is assumed to be resilient and you need to test whether that claim holds.**
+
+Most resilience analysis asks: “What happens if this fails?” Cascade detection asks the harder question: “What happens if three things fail at once — and the third failure is caused by our response to the first two?”
+
+**Protocol:**
+
+- **Inventory:** List 4–8 load-bearing variables. Use Constraint Forge first if the list is long.
+- **Independence Test:** For each variable pair, ask: is there a single event that could cause both to fail simultaneously? Map shared triggers. Variables with shared triggers form coupled clusters.
+- **Threshold Test:** For each cluster, find the minimum simultaneous failures that produce system failure. Then ask: what single trigger exceeds that threshold? Flag if any component of the safety architecture is itself a cascade engine.
+- **Response Trap:** Map who has system-level visibility when the cascade initiates — and who doesn’t. Identify locally rational decisions that compound the cascade.
+- **Informed Inaction (4B):** If actors had system-level visibility and chose not to act, ask: what made inaction locally rational? Detection alone is insufficient when inaction is incentivized — governance redesign required.
+- **Verify:** Scope / Inventory / Independence / Threshold / Safety mechanism / Response trap / Informed inaction / Sovereignty
+
+**Cascade Risk Rating:** RESILIENT / CONDITIONALLY RESILIENT / CASCADE RISK / CASCADING NOW
+
+**Stop if:** The tool is producing anxiety rather than clarity. Return to Phase 1 and Forge the variable list first. This is pre-decision diagnostic — not incident response.
+
+*Full protocol with stress test results (Northeast Blackout 2003, Financial Crisis 2007–2008): `sovereign-thinking-tools/cascade-failure-detector.md`*
+
+*Cross-reference: Constraint Forge (run first), Constraint Inversion Engine (Phase 3), Negative Space Mapper (Phase 4), Behavioral Drift Detection Ledger (Drift Through Accumulated Context is a response trap at interaction layer — `safety-ledgers/behavioral-drift-detection-ledger.md`).*
+
+-----
+
+## X. DEVELOPMENTAL CATEGORY
+
+*Tools for building judgment over time. These are not diagnostics — they are training protocols. The value compounds across uses. The goal is to need them less, not more.*
+
+-----
+
+### 48. Conrad
+
+**When you need to build judgment before experience provides it.**
+
+Named for the consequence-prediction AI in *The Simpsons* episode “The Girl Code.” Conrad simulates consequence paths for decisions not yet made — compressing the timeline toward the moment when a practitioner can recognize what wrong looks like before it completes.
+
+The no has to be earned. There is no other way in. Conrad is not the other way in. It is the compressed path to the moment where the real way in begins.
+
+> **Design Warning — The Rehearsal Problem:** Running Conrad is not a neutral diagnostic. It is itself a formative experience. When the simulation becomes its own object — when you are rehearsing the rehearsal — the tool has exceeded its design envelope. Stop.
+
+**Input types:**
+
+- **Decision Statement:** “I am going to do X.”
+- **Position Statement:** “I am going to say no / yes to X.”
+- **Claim Statement:** “X is true / ready / sufficient / complete.”
+
+**Protocol:**
+
+- **Phase 1 — Decision Anatomy:** Strip to irreducible core. Map authority, reversibility horizon, and whose definition of success is operative. If you cannot state the decision cleanly, stop — clarify first.
+- **Phase 2 — Immediate Consequence Trace:** Map direct consequences. Classify each as Terminal, Propagating, or Latent. Pause at each node. The unfamiliar consequence is the one that produces scar tissue.
+- **Phase 3 — Second-Order Trace:** For each propagating consequence, trace what it changes about the environment in which the next decision will be made. Map Response Traps — decisions other actors will make in response. Escalate to Tool 47 if second-order consequences form a coupled cluster.
+- **Phase 4 — Black Swan Inoculation:** Apply five hindsight patterns to install cognitive antibodies against false learning: Narrative Fallacy / Creeping Determinism / Champion Hunting / Subset Selection / Compression of Probability Language.
+- **Phase 5 — False Positive Simulation:** Trace one lower-probability consequence path as if it fired. Do not resolve it. Leave it open. The paths that don’t fire are invisible in normal experience — Conrad makes them visible.
+- **Phase 6 — Rehearsal Stop Condition:** Hard stop triggers when: simulation recursion detected / rehearsal is displacing the decision / affect transfer is active / Phase 1 re-entered more than twice. When triggered: close the simulation and decide with what you have.
+- **Phase 7 — Judgment Extraction:** Name the consequence you didn’t anticipate. Name the hindsight pattern most likely to distort your learning. Ask what a practitioner with twenty more years of experience would see that you are not seeing. Do not answer the last question with certainty. The uncertainty is the output.
+
+**Consequence Path Rating:** NAVIGABLE / COMPLEX / CASCADE RISK / SIMULATION LIMIT
+
+**Developmental arc:** First use — the map expands. Tenth use — pattern recognition forms. Fiftieth use — you recognize decision types by their consequence signature. This is the beginning of judgment. The tool is scaffolding. The goal is to need less of it.
+
+**Stop if:** You are simulating to avoid deciding. The Rehearsal Stop Condition has triggered. The simulation has become the experience.
+
+*Full protocol with phase-by-phase detail: `sovereign-thinking-tools/conrad.md`*
+
+*Cross-reference: Cascade Failure Detector (Tool 47) — Phase 3 escalates here when second-order consequences cluster. Constraint Forge — run first when decision input is complex. Negative Space Mapper — Phase 5 borrows absence detection logic. Truth Audit / Conrad Protocol — the Protocol detects inappropriate certainty in AI output; this tool builds appropriate uncertainty tolerance in human practitioners.*
+
+-----
+
+## XI. CANDIDATES & WATCHLIST
 
 *Tools identified through gap analysis that are not yet fully formed or may prove unnecessary. Listed for future consideration. Each must pass all five governing principles before promotion to active status.*
 
@@ -1063,6 +1084,6 @@ Protocol sketch: same as general version, applied to programs and partnerships. 
 
 -----
 
-🧊 SOVEREIGN THINKING TOOLS · Complete Reference · v3.3 · FROZEN KERNEL SYSTEM
+🧊 SOVEREIGN THINKING TOOLS · Complete Reference · v3.4 · FROZEN KERNEL SYSTEM
 
 **License:** Released for public benefit under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
