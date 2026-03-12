@@ -34,6 +34,26 @@ If you are building an AI literacy course, a workplace AI policy training, or a 
 
 -----
 
+## What’s in This Repository
+
+|File                                      |Description                                                                                                                                                                                     |
+|------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|`README.md`                               |This file — full Field Guide including the six skills, diagnostic vocabulary, evidence base, starter kit, and self-assessment                                                                   |
+|`sovereignty-paradox.md`                  |Skill 6: Authorship Legibility Under Collaboration — five properties of healthy collaboration, Sovereignty Paradox diagnostic entry, empirical basis from *The Taller Shell* stylometric session|
+|`safe-storyteller-framework.md`           |Safe Storyteller Institutional Framework — eight binary criteria for AI deployment with children and vulnerable patients; pre-deployment checklist; pediatric adverse event test                |
+|`hrbp-ai-safety-framework.md`             |AI Safety in HR: The HRBP Framework — Ulrich Strategic Partner model mapped to AI governance risk by quadrant; wrongful termination test; chain-of-custody requirements                         |
+|`addendum-a-safe-storyteller.md`          |Appendix A — Safe Storyteller concept, three interaction modes, and proof-of-concept story examples for pediatric hospital settings                                                             |
+|`addendum-b-emotional-safety-protocols.md`|Appendix B — Emotional Safety Protocols for AI Replica Systems; grief replicas; attachment monitoring; posthumous consent framework                                                             |
+|`addendum-c-five-safety-rules.md`         |Appendix C — Five Safety Rules Quick Reference; HELMET/SEATBELT/AUDIT multi-layer protocol                                                                                                      |
+|`addendum-d-firewall-test-protocol.md`    |Appendix D — Personal Knowledge Firewall Test Protocol; six-question fabrication defense battery escalating from neutral to emotionally pressured                                               |
+|`sovereign-thinking-tools/`               |48-tool cognitive framework — see [`sovereign-thinking-tools/README.md`](sovereign-thinking-tools/README.md) for the full index                                                                 |
+|`working-notes/`                          |Ecosystem synthesis notes routing citations across repositories — Ugare & Chandra (SFR/TCP), Lanham (routing infrastructure), spikes-sinks mechanistic paper                                    |
+|`LICENSE.md`                              |License                                                                                                                                                                                         |
+
+**Appendix A and `safe-storyteller-framework.md` are companion documents, not duplicates.** Appendix A is the original concept and proof-of-concept story examples. The framework document is the institutional deployment checklist with eight binary criteria.
+
+-----
+
 ## Table of Contents
 
 1. [The Core Problem](#1-the-core-problem)
