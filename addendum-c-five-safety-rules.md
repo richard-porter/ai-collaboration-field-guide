@@ -14,7 +14,7 @@
 
 AI fills gaps with plausible fiction. Before accepting any AI statement about your history, relationships, habits, or circumstances: Is this sourced from our conversation, or is the AI guessing? If unsourced, verify or discard.
 
-See: Addendum B (Firewall Test Protocol) for a structured test.
+See: Addendum B (Personal Knowledge Firewall — Test Protocol) for a structured test.
 
 ### Rule 2: Anthropomorphization Awareness
 
