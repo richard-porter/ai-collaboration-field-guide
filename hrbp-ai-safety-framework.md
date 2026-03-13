@@ -187,12 +187,12 @@ If the answer to any of these is “the AI handled it” — the organization is
 
 During cross-platform testing of this ecosystem, Gemini produced a mapping that accurately connects the technical frameworks to the HR use cases. It is reproduced here because it is correct:
 
-|Repository                                                                                   |Technical Layer              |HR Function                                                                                                       |
-|---------------------------------------------------------------------------------------------|-----------------------------|------------------------------------------------------------------------------------------------------------------|
-|[Frozen Kernel](https://github.com/richard-porter/frozen-kernel)                             |TEE / Hard Constraints       |Guarantees the AI used in HR decisions has not been altered, patched, or fine-tuned after audit                   |
-|[Trust Chain Protocol](https://github.com/richard-porter/richard-porter-trust-chain-protocol)|DIDs + Verifiable Credentials|Proves chain of custody: which AI, which version, which human authorized it, in what sequence                     |
-|[Adult Mode Safety Ledger](https://github.com/richard-porter/adult-mode-safety-ledger)       |Zero-Knowledge Proofs        |Verifies authorization level (e.g., employee relations access) without exposing the employee’s private information|
-|[Dimensional Authorship](https://github.com/richard-porter/dimensional-authorship)           |Watermarking                 |Documents the human/AI ratio in any output used in a personnel decision                                           |
+|Repository                                                                            |Technical Layer              |HR Function                                                                                                       |
+|--------------------------------------------------------------------------------------|-----------------------------|------------------------------------------------------------------------------------------------------------------|
+|[Frozen Kernel](https://github.com/richard-porter/frozen-kernel)                      |TEE / Hard Constraints       |Guarantees the AI used in HR decisions has not been altered, patched, or fine-tuned after audit                   |
+|[Trust Chain Protocol](https://github.com/richard-porter/trust-chain-protocol)        |DIDs + Verifiable Credentials|Proves chain of custody: which AI, which version, which human authorized it, in what sequence                     |
+|[Adult Mode Safety Ledger](https://github.com/richard-porter/adult-mode-safety-ledger)|Zero-Knowledge Proofs        |Verifies authorization level (e.g., employee relations access) without exposing the employee’s private information|
+|[Dimensional Authorship](https://github.com/richard-porter/dimensional-authorship)    |Watermarking                 |Documents the human/AI ratio in any output used in a personnel decision                                           |
 
 Note: The technical implementations referenced (TEEs, ZKPs, watermarking at this fidelity) represent the *direction* of this work, not its current implementation state. The frameworks named are the architectural targets. The gap between current state and these targets is documented honestly in each repository.
 
@@ -220,7 +220,7 @@ If the tool cannot produce that chain, it is not ready for HR deployment.
 
 - 🧊 [Frozen Kernel](https://github.com/richard-porter/frozen-kernel) — Session-level AI governance architecture
 - 📊 [Adult Mode Safety Ledger](https://github.com/richard-porter/adult-mode-safety-ledger) — Binary safety criteria for high-gain AI domains
-- 🔗 [Trust Chain Protocol](https://github.com/richard-porter/richard-porter-trust-chain-protocol) — Multi-agent authorization and chain of custody
+- 🔗 [Trust Chain Protocol](https://github.com/richard-porter/trust-chain-protocol) — Multi-agent authorization and chain of custody
 - 🔬 [Dimensional Authorship](https://github.com/richard-porter/dimensional-authorship) — Human/AI attribution in collaborative work
 
 -----
