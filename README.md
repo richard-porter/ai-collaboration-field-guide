@@ -52,6 +52,12 @@ If you are building an AI literacy course, a workplace AI policy training, or a 
 
 **Appendix A and `safe-storyteller-framework.md` are companion documents, not duplicates.** Appendix A is the original concept and proof-of-concept story examples. The framework document is the institutional deployment checklist with eight binary criteria.
 
+A Note on “AI Sovereignty” — Terminology Collision
+The term “AI sovereignty” appears in two distinct and non-overlapping discourse contexts that are currently in collision. Understanding the collision matters for anyone reading both this ecosystem and broader AI policy literature.
+In this ecosystem: “AI sovereignty” means the individual user’s right and capacity to govern their own cognitive process during AI collaboration — to remain the governing intelligence directing the work, rather than being directed by it. It is a personal architecture concept: who is sovereign over this session, this decision, this output?
+In dominant policy usage: “AI sovereignty” means national or institutional control over AI infrastructure — the right of a state, bloc, or organization to own, operate, and regulate its own AI compute, data, and model stack without dependence on foreign providers. The EU AI Act, ASEAN AI governance frameworks, and G7 AI policy discussions use the term in this sense exclusively.
+The two meanings share a word and nothing else. They operate at different scales (individual cognition vs. national infrastructure), address different threat models (sycophantic drift vs. geopolitical dependency), and propose different solutions (behavioral governance vs. regulatory sovereignty).
+Readers arriving from AI policy contexts will read “sovereign humans” and “AI sovereignty” in this ecosystem as national-infrastructure claims. They are individual-cognition claims. The governing phrase of this ecosystem — Sovereign humans. Always. — is a statement about who governs the session, not about where the servers are.
 -----
 
 ## Table of Contents
