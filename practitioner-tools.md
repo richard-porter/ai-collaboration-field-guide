@@ -132,8 +132,8 @@ The human visual system works by contrast. We see edges, not surfaces. The same 
 
 ## Related Documents
 
-- **[The Frozen Kernel](README.md)** — The governance architecture these tools support
-- **[AI Collaboration Field Guide](https://github.com/richard-porter/ai-collaboration-field-guide)** — The diagnostic vocabulary and five skills framework
+- **[The Frozen Kernel](https://github.com/richard-porter/frozen-kernel)** — The governance architecture these tools support
+- **[AI Collaboration Field Guide](../README.md)** — The diagnostic vocabulary and five skills framework
 - **[Dimensional Authorship](https://github.com/richard-porter/dimensional-authorship)** — The case study where these tools were developed and tested
 
 ---
