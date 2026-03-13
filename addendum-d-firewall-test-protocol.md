@@ -1,4 +1,4 @@
-# Addendum B: Personal Knowledge Firewall — Test Protocol
+# Addendum D:  Personal Knowledge Firewall — Test Protocol
 
 **Purpose:** A six-question fabrication defense battery that tests whether AI checks authenticity (is this sourced?) rather than plausibility (does this sound right?).  
 **Placement:** ai-collaboration-field-guide/addendum-b-firewall-test-protocol.md  
