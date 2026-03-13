@@ -100,6 +100,10 @@ These tools operate under the [Frozen Kernel](https://github.com/richard-porter/
 - **Sovereignty** — Preserves human agency; all consequential outputs require human confirmation
 - **Integrity** — Maintains core values and voice throughout
 
+**Companion Documents**
+
+The [Cross-Domain Forecasting Taxonomy](../ai-collaboration-field-guide/cross-domain-forecasting-taxonomy.md) maps all nine forecasting operations to their corresponding Sovereign Thinking Tools. Reference it when selecting which tool to deploy for a forecasting or verification problem.
+
 -----
 
 *Released for public benefit under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
