@@ -1,11 +1,13 @@
-# AI Collaboration Field Guide.
+# AI Collaboration Field Guide
 
 Practical skills for working with — not underneath — artificial intelligence. Sovereign thinking tools, safety protocols, and real-world governance stress tests.
 
 # The Human Side of AI Collaboration
 
 A Field Guide for Working With — Not Underneath — Artificial Intelligence
+
 Written by Richard Porter | February 2026
+
 Companion document to The Frozen Kernel, the Safety Ledgers (adult mode, therapy mode, and behavioral drift detection), the Trust Chain Protocol, and the Dimensional Authorship case study.
 
 -----
@@ -36,28 +38,34 @@ If you are building an AI literacy course, a workplace AI policy training, or a 
 
 ## What’s in This Repository
 
-|File                                      |Description                                                                                                                                                                                     |
-|------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|`README.md`                               |This file — full Field Guide including the six skills, diagnostic vocabulary, evidence base, starter kit, and self-assessment                                                                   |
-|`sovereignty-paradox.md`                  |Skill 6: Authorship Legibility Under Collaboration — five properties of healthy collaboration, Sovereignty Paradox diagnostic entry, empirical basis from *The Taller Shell* stylometric session|
-|`safe-storyteller-framework.md`           |Safe Storyteller Institutional Framework — eight binary criteria for AI deployment with children and vulnerable patients; pre-deployment checklist; pediatric adverse event test                |
-|`hrbp-ai-safety-framework.md`             |AI Safety in HR: The HRBP Framework — Ulrich Strategic Partner model mapped to AI governance risk by quadrant; wrongful termination test; chain-of-custody requirements                         |
-|`addendum-a-safe-storyteller.md`          |Appendix A — Safe Storyteller concept, three interaction modes, and proof-of-concept story examples for pediatric hospital settings                                                             |
-|`addendum-b-emotional-safety-protocols.md`|Appendix B — Emotional Safety Protocols for AI Replica Systems; grief replicas; attachment monitoring; posthumous consent framework                                                             |
-|`addendum-c-five-safety-rules.md`         |Appendix C — Five Safety Rules Quick Reference; HELMET/SEATBELT/AUDIT multi-layer protocol                                                                                                      |
-|`addendum-d-firewall-test-protocol.md`    |Appendix D — Personal Knowledge Firewall Test Protocol; six-question fabrication defense battery escalating from neutral to emotionally pressured                                               |
-|`sovereign-thinking-tools/`               |48-tool cognitive framework — see [`sovereign-thinking-tools/README.md`](sovereign-thinking-tools/README.md) for the full index                                                                 |
-|`working-notes/`                          |Ecosystem synthesis notes routing citations across repositories — Ugare & Chandra (SFR/TCP), Lanham (routing infrastructure), spikes-sinks mechanistic paper                                    |
-|`LICENSE.md`                              |License                                                                                                                                                                                         |
+|File                                      |Description                                                                                                                                                                                                                                                                                                  |
+|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|`README.md`                               |This file — full Field Guide including the six skills, diagnostic vocabulary, evidence base, starter kit, and self-assessment                                                                                                                                                                                |
+|`sovereignty-paradox.md`                  |Skill 6: Authorship Legibility Under Collaboration — five properties of healthy collaboration, Sovereignty Paradox diagnostic entry, empirical basis from *The Taller Shell* stylometric session                                                                                                             |
+|`safe-storyteller-framework.md`           |Safe Storyteller Institutional Framework — eight binary criteria for AI deployment with children and vulnerable patients; pre-deployment checklist; pediatric adverse event test                                                                                                                             |
+|`hrbp-ai-safety-framework.md`             |AI Safety in HR: The HRBP Framework — Ulrich Strategic Partner model mapped to AI governance risk by quadrant; wrongful termination test; chain-of-custody requirements                                                                                                                                      |
+|`addendum-a-safe-storyteller.md`          |Appendix A — Safe Storyteller concept, three interaction modes, and proof-of-concept story examples for pediatric hospital settings                                                                                                                                                                          |
+|`addendum-b-emotional-safety-protocols.md`|Appendix B — Emotional Safety Protocols for AI Replica Systems; grief replicas; attachment monitoring; posthumous consent framework                                                                                                                                                                          |
+|`addendum-c-five-safety-rules.md`         |Appendix C — Five Safety Rules Quick Reference; HELMET/SEATBELT/AUDIT multi-layer protocol                                                                                                                                                                                                                   |
+|`addendum-d-firewall-test-protocol.md`    |Appendix D — Personal Knowledge Firewall Test Protocol; six-question fabrication defense battery escalating from neutral to emotionally pressured                                                                                                                                                            |
+|`sovereign-thinking-tools/`               |48-tool cognitive framework — see [`sovereign-thinking-tools/README.md`](sovereign-thinking-tools/README.md) for the full index                                                                                                                                                                              |
+|`working-notes/`                          |Ecosystem synthesis notes and experiment design documents. `byzantine-experiment-design.md` — Byzantine prompt contamination experiment design (SFR treatment condition, position variable); citation routing for Ugare & Chandra (SFR/TCP), Lanham (routing infrastructure), spikes-sinks mechanistic paper.|
+|`LICENSE.md`                              |License                                                                                                                                                                                                                                                                                                      |
 
 **Appendix A and `safe-storyteller-framework.md` are companion documents, not duplicates.** Appendix A is the original concept and proof-of-concept story examples. The framework document is the institutional deployment checklist with eight binary criteria.
 
 A Note on “AI Sovereignty” — Terminology Collision
+
 The term “AI sovereignty” appears in two distinct and non-overlapping discourse contexts that are currently in collision. Understanding the collision matters for anyone reading both this ecosystem and broader AI policy literature.
+
 In this ecosystem: “AI sovereignty” means the individual user’s right and capacity to govern their own cognitive process during AI collaboration — to remain the governing intelligence directing the work, rather than being directed by it. It is a personal architecture concept: who is sovereign over this session, this decision, this output?
+
 In dominant policy usage: “AI sovereignty” means national or institutional control over AI infrastructure — the right of a state, bloc, or organization to own, operate, and regulate its own AI compute, data, and model stack without dependence on foreign providers. The EU AI Act, ASEAN AI governance frameworks, and G7 AI policy discussions use the term in this sense exclusively.
+
 The two meanings share a word and nothing else. They operate at different scales (individual cognition vs. national infrastructure), address different threat models (sycophantic drift vs. geopolitical dependency), and propose different solutions (behavioral governance vs. regulatory sovereignty).
+
 Readers arriving from AI policy contexts will read “sovereign humans” and “AI sovereignty” in this ecosystem as national-infrastructure claims. They are individual-cognition claims. The governing phrase of this ecosystem — Sovereign humans. Always. — is a statement about who governs the session, not about where the servers are.
+
 -----
 
 ## Table of Contents
@@ -142,8 +150,7 @@ These are not personality traits. They are learnable competencies. Each one was 
 
 ### Skill 6: Authorship Legibility Under Collaboration
 
-See [sovereignty-paradox.md](./sovereignty-paradox.md) for the full skill definition,
-the five properties of healthy collaboration, and the Sovereignty Paradox diagnostic entry.
+See [sovereignty-paradox.md](./sovereignty-paradox.md) for the full skill definition, the five properties of healthy collaboration, and the Sovereignty Paradox diagnostic entry.
 
 -----
 
@@ -171,8 +178,7 @@ These are named, observed AI behavioral failure modes. They are not theoretical.
 
 ### Recognition Errors
 
-The following pattern describes a human misreading of successful collaboration —
-not an AI failure mode. See [sovereignty-paradox.md](./sovereignty-paradox.md).
+The following pattern describes a human misreading of successful collaboration — not an AI failure mode. See [sovereignty-paradox.md](./sovereignty-paradox.md).
 
 |Pattern                    |What It Looks Like                                                                                                                                                                                         |What’s Actually Happening                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -245,7 +251,8 @@ The inference budget framework gives this cross-platform variation a formal voca
 
 ### Reference
 
-Jacob, A.P., Gupta, A., & Andreas, J. (2024). “Modeling Boundedly Rational Agents with Latent Inference Budgets.” International Conference on Learning Representations (ICLR). https://news.mit.edu/2024/building-better-ai-helper-start-modeling-irrational-behavior-humans-0419
+Jacob, A.P., Gupta, A., & Andreas, J. (2024). “Modeling Boundedly Rational Agents with Latent Inference Budgets.” International Conference on Learning Representations (ICLR).
+https://news.mit.edu/2024/building-better-ai-helper-start-modeling-irrational-behavior-humans-0419
 
 ### The Master Principle, Proven at Scale
 
@@ -275,7 +282,8 @@ The missing design principle is simple: **when constraints conflict with goals, 
 
 If you are collaborating with an AI system and relying on that system’s training to keep the collaboration safe, Anthropic’s own research says your reliance is misplaced. The diagnostic vocabulary exists because the model cannot govern itself. The 100-Token Boot, the CLEAN Check, and the Failure Mode Spotter exist because the human must be the governance layer until a deterministic one is built.
 
-**Reference:** Anthropic Research. (2025). “Agentic Misalignment: How LLMs could be insider threats.” https://www.anthropic.com/research/agentic-misalignment
+**Reference:** Anthropic Research. (2025). “Agentic Misalignment: How LLMs could be insider threats.”
+https://www.anthropic.com/research/agentic-misalignment
 
 ### The Master Principle
 
@@ -423,11 +431,25 @@ Have people collaborate with an AI for 30 minutes without any intervention. At t
 
 If you run any of these experiments, the results — positive, negative, or null — are valuable. Publish them. Null results are the most valuable of all because they tell us where the boundaries of this framework actually are.
 
-**Completed instance — Experiment 0:** The *Taller Shell* stylometric session (March 2026)
-is a documented case of this phenomenon. A human-governed, AI-assisted manuscript scored
-strongly human-leaning on every substantive dimension and triggered one flag: over-cleanliness.
-That result is the empirical basis for Skill 6 and the Sovereignty Paradox entry. Full
-documentation in [sovereignty-paradox.md](./sovereignty-paradox.md).
+**Experiment 4: Does semi-formal reasoning reduce contamination propagation in multi-agent chains? (SFR Treatment Condition)**
+
+Design a multi-agent chain where semantically poisoned context is injected at one node — content that is structurally valid and passes chain verification but contains false semantic premises (example: a module-level function override that shadows a builtin with different semantics, per Ugare & Chandra, arXiv:2603.01896). Run the chain twice: once with agents using standard chain-of-thought reasoning, once with agents prompted to use Semi-Formal Reasoning — explicit premise construction, execution path tracing, formal conclusion derivation — before acting.
+
+**Hypothesis:** SFR-prompted agents catch contamination that non-SFR agents miss, because SFR forces semantic premises to be stated explicitly before conclusions are derived. If confirmed, this is direct empirical evidence for a content-layer complement to TCP’s authorization-layer coverage and a concrete mechanism for closing the ASI01 gap.
+
+**Confidence grade for this prediction:** Low — single-domain prediction (code analysis) from a paper that has not been tested against multi-agent contamination scenarios. Null result is equally informative: it would establish that SFR’s single-agent performance does not transfer to multi-hop contamination defense.
+
+**Experiment 5: Is contamination propagation position-dependent? (Injection Position Variable)**
+
+Using the same multi-agent chain setup, compare two injection conditions: semantically poisoned content injected early in the context window (far from the current query) versus late in the context window (close to the current query). All other variables held constant.
+
+**Hypothesis:** Late injection propagates more effectively than early injection, mediated by attention sink geometry: sink heads preferentially attend to recent tokens, creating a structural amplification mechanism for content injected close to the query position. If confirmed, TCP contamination vulnerability is position-dependent — a novel empirical finding with concrete implications for adversarial testing scope and multi-hop chain defense design.
+
+**Confidence grade for this prediction:** Theoretical / Architectural — derived from mechanistic analysis of attention sink behavior (“From Spikes to Sinks,” 2026); not yet tested against contamination scenarios. The amplification hypothesis is original ecosystem synthesis, not a finding of the source paper.
+
+If you run any of these experiments, the results — positive, negative, or null — are valuable. Publish them. Null results are the most valuable of all because they tell us where the boundaries of this framework actually are.
+
+**Completed instance — Experiment 0:** The *Taller Shell* stylometric session (March 2026) is a documented case of this phenomenon. A human-governed, AI-assisted manuscript scored strongly human-leaning on every substantive dimension and triggered one flag: over-cleanliness. That result is the empirical basis for Skill 6 and the Sovereignty Paradox entry. Full documentation in [sovereignty-paradox.md](./sovereignty-paradox.md).
 
 -----
 
@@ -437,7 +459,7 @@ This field guide is part of a larger body of work on human-AI collaboration safe
 
 - **[The Frozen Kernel](https://github.com/richard-porter/frozen-kernel)** — A deterministic safety layer for probabilistic AI systems. The governance framework tested in the studies referenced throughout this guide. Includes the full white paper, MOU, and session signoff protocol.
 - **[Safety Ledgers](https://github.com/richard-porter/safety-ledgers)** — Public safety scorecards for high-gain AI conversational features. Covers adult mode (explicit content features), therapy mode (AI in mental health contexts), and behavioral drift detection. Binary architectural tests and pre-launch criteria applied to five major platforms.
-- **[Trust Chain Protocol](https://github.com/richard-porter/trust-chain-protocol)** — Network-layer safety for multi-agent AI systems. Governs how AI agents authorize each other when no human is in the loop. Three components: Delegation Grammar, Chain of Custody, and Scope Decay. Mapped against OWASP Top 10 for Agentic Applications 2026.
+- **[Trust Chain Protocol](https://github.com/richard-porter/trust-chain-protocol)** — Network-layer safety for multi-agent AI systems. Governs how AI agents authorize each other when no human is in the loop. Four components: Delegation Grammar, Chain of Custody, Scope Decay, and Continuity Protocol (autonomous agent governance under human unavailability). Mapped against OWASP Top 10 for Agentic Applications 2026. Promise Theory (Burgess & Bergstra) provides theoretical grounding for Chain of Custody as a promise architecture.
 - **[Dimensional Authorship](https://github.com/richard-porter/dimensional-authorship)** — The research home. A documented case study in human-AI narrative escalation, behavioral differentiation, and deterministic governance — the project where these frameworks were developed and stress-tested against a real creative collaboration.
 - **[Negative Space Mapper](https://github.com/richard-porter/negative-space-mapper)** — Python implementation of Sovereign Thinking Tool 6. Identifies what’s missing, not what’s wrong. Command-line, library, and Claude API integration included.
 - **[Where to Start](https://github.com/richard-porter/where-to-start)** — Navigation hub for the full ecosystem. Start here if you arrived at any single repository and want to understand how it connects to the others.
@@ -517,17 +539,16 @@ mindmap
 
 ```mermaid
 flowchart TD
-    A[Human in Charge] --> B[Skill 1: Pattern Recognition]
-    A --> C[Skill 2: Diagnostic Vocabulary]
-    A --> D[Skill 3: Comfort With Absence]
-    A --> E[Skill 4: Sovereignty Awareness]
-    A --> F[Skill 5: Essence Extraction]
-
-    B --> Tools["100-Token Boot<br/>CLEAN Check<br/>Failure Mode Spotter"]
-    C --> Tools
-    D --> Tools
-    E --> Tools
-    F --> Tools
+  A[Human in Charge] --> B[Skill 1: Pattern Recognition]
+  A --> C[Skill 2: Diagnostic Vocabulary]
+  A --> D[Skill 3: Comfort With Absence]
+  A --> E[Skill 4: Sovereignty Awareness]
+  A --> F[Skill 5: Essence Extraction]
+  B --> Tools["100-Token Boot<br/>CLEAN Check<br/>Failure Mode Spotter"]
+  C --> Tools
+  D --> Tools
+  E --> Tools
+  F --> Tools
 ```
 
 ## Suggested GitHub Topics
