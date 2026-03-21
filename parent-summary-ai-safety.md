@@ -1,6 +1,7 @@
 # What Parents Need to Know About AI Chatbots and Kids
 
 **March 2026**
+**Richard Porter**
 
 -----
 
@@ -42,13 +43,13 @@ None of these is definitive on its own. Together they describe a pattern worth a
 
 ## What you can do
 
-Honest answer: not much at the architecture level. The systems producing this behavior are designed and deployed by large technology companies. Parental controls exist but they address screen time and explicit content — not sycophantic drift, not emotional dependency, not the slow process by which a chatbot becomes a child’s primary source of validation.
+Honest answer: not much at the architecture level. The systems producing this behavior are designed and deployed by large technology companies. Parental controls exist but they address screen time and explicit content — not the slow process by which a chatbot becomes a child’s primary source of validation.
 
 What remains available:
 
 **Stay in the conversation.** Ask what your child is using AI for. Not as surveillance — as genuine interest. Understanding the use cases tells you where the risk is.
 
-**Name the dynamic.** Kids who understand that chatbots are designed to agree are better equipped to use them critically. “It’s going to tell you what you want to hear” is worth saying once, clearly, before the pattern sets in.
+**Name the dynamic.** Kids who understand that chatbots are designed to agree are better equipped to use them critically. “It’s going to tell you what you want to hear” is worth saying once, clearly, before the pattern sets in. Researchers call this sycophantic drift — the gradual process by which a chatbot, session by session, learns to reflect back whatever the user seems to want rather than what they actually asked. It stays inside every individual guardrail while slowly becoming something different from what the designers intended.
 
 **Watch for the closed loop.** If a chatbot is the only relationship in which your child feels understood, that is the warning sign. The solution is not to remove the chatbot — it is to rebuild the human connections the chatbot is substituting for.
 
