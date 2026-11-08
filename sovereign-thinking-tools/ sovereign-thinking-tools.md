@@ -729,7 +729,7 @@ Structured investigation sequence for nonprofits facing complaints, financial ir
 
 **Stop if:** The investigation is being conducted by someone with a conflict of interest. If no independent person exists internally, engage outside help.
 
-*Enterprise origin: Ethics and EEO investigations, harassment inquiries, grievance hearings (Rolls-Royce, St. Bernard Hospital). Unemployment hearings and wage/EEOC claims (St. Bernard).*
+*Enterprise origin: Ethics and EEO investigations, harassment inquiries, grievance hearings, unemployment hearings, and wage/EEOC claims.*
 
 -----
 
@@ -748,7 +748,7 @@ Structured investigation sequence for nonprofits facing complaints, financial ir
 
 **Stop if:** One party is negotiating in bad faith or has already decided the outcome. If that’s absent, escalate to the board or seek mediation.
 
-*Enterprise origin: Collective bargaining administration for 250 union employees (St. Bernard Hospital). Grievance hearings and co-employment dispute resolution (Navient). Stakeholder conflict management in matrix organizations (Rolls-Royce).*
+*Enterprise origin: Collective bargaining administration, grievance hearings, co-employment dispute resolution, and stakeholder conflict management in matrix organizations.*
 
 -----
 
@@ -767,7 +767,7 @@ Structured investigation sequence for nonprofits facing complaints, financial ir
 
 **Stop if:** You’re using this tool to justify not addressing a known problem.
 
-*Enterprise origin: Attrition analysis and retention planning (Navient). Workforce planning and bench strength reviews. Exit interview data analysis across multiple business units.*
+*Enterprise origin: Attrition analysis and retention planning. Workforce planning and bench strength reviews. Exit interview data analysis across multiple business units.*
 
 -----
 
@@ -786,7 +786,7 @@ Structured investigation sequence for nonprofits facing complaints, financial ir
 
 **Stop if:** You’re using this to build a Fortune 500 benefits program for a five-person shop. The goal is compliance, not sophistication.
 
-*Enterprise origin: Pension administration for 500-participant retirement plan (St. Bernard Hospital). Benefits vendor evaluation and negotiation. Compensation structure revision and salary survey methodology (Rolls-Royce, Navient).*
+*Enterprise origin: Pension administration, benefits vendor evaluation and negotiation, compensation structure revision, and salary survey methodology.*
 
 -----
 
@@ -805,7 +805,7 @@ Structured investigation sequence for nonprofits facing complaints, financial ir
 
 **Stop if:** The diagnostic is becoming a technology shopping list. Procurement is a separate decision requiring its own Scale Test.
 
-*Enterprise origin: Workday HRIS implementation (Navient). HR Shared Services system buildout with 70+ standardized processes (Rolls-Royce). Data tracking system creation for board reporting (St. Bernard Hospital).*
+*Enterprise origin: HRIS implementation, HR Shared Services system buildout with standardized processes, and data tracking system creation for board reporting.*
 
 -----
 

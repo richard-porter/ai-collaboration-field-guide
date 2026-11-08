@@ -225,4 +225,4 @@ If the tool cannot produce that chain, it is not ready for HR deployment.
 
 -----
 
-*Richard Porter has 20+ years of HR experience in Fortune 500 environments including Rolls-Royce North America. This framework draws on direct HRBP practice, Six Sigma process methodology, and two months of systematic AI behavioral research documented across this ecosystem. All done via mobile*
+*Richard Porter has extensive HR experience in large organizations. This framework draws on direct HRBP practice, Six Sigma process methodology, and two months of systematic AI behavioral research documented across this ecosystem. All done via mobile*

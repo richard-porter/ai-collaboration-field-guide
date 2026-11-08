@@ -15,7 +15,7 @@ A cognitive bypass protocol for when you’re stuck within kernel-protected crea
 > The ungoverned clock wastes slowly — elegant execution without governing intelligence.
 > The failed clock loses time entirely — the escapement gone, the mainspring unwinding into nothing.
 > 
-> — Winterhalder coat of arms (1480) / Diagnostic Vocabulary (2026)
+> — Adapted from *festina lente* / Diagnostic Vocabulary (2026)
 
 -----
 
